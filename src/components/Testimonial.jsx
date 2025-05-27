@@ -10,7 +10,7 @@ const testimonials = [
     name: 'Jan Bakker',
     location: 'Amsterdam',
     rating: 5,
-    text: 'Ik ben zeer tevreden over de service van Benzobestellen. De medicijnen werden snel geleverd en de kwaliteit is uitstekend. Zeker een aanrader voor iedereen die op zoek is naar betrouwbare medicatie.',
+    text: 'I am very satisfied with the service from Benzobestellen. The medication was delivered quickly and the quality is excellent. Highly recommended for anyone looking for reliable medication.',
     image: '/placeholder.svg?height=100&width=100',
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     name: 'Lisa de Vries',
     location: 'Rotterdam',
     rating: 5,
-    text: 'Al jaren bestel ik mijn medicatie bij Benzobestellen en ik ben nog nooit teleurgesteld. De website is gebruiksvriendelijk, de levering is discreet en de klantenservice is top!',
+    text: 'I’ve been ordering my medication from Benzobestellen for years and I’ve never been disappointed. The website is user-friendly, delivery is discreet, and the customer service is excellent!',
     image: '/placeholder.svg?height=100&width=100',
   },
   {
@@ -26,10 +26,11 @@ const testimonials = [
     name: 'Pieter Jansen',
     location: 'Utrecht',
     rating: 5,
-    text: 'Goede ervaring met Benzobestellen. De medicijnen zijn van hoge kwaliteit en de levering is altijd op tijd. De prijzen zijn redelijk en de website is gemakkelijk te navigeren.',
+    text: 'Great experience with Benzobestellen. The medication is high quality and delivery is always on time. The prices are reasonable and the website is easy to navigate.',
     image: '/placeholder.svg?height=100&width=100',
   },
 ];
+
 
 export default function TestimonialSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -50,7 +51,7 @@ export default function TestimonialSection() {
     <section className="bg-teal-500 py-12 text-white container mx-auto px-4 md:px-6 lg:px-12">
       <div className="mx-auto max-w-7xl">
         <h2 className="mb-6 text-center text-2xl lg:text-3xl font-bold">
-          Wat klanten zeggen
+         What customers say
         </h2>
 
         <div className="relative mx-auto max-w-3xl">
@@ -108,7 +109,7 @@ export default function TestimonialSection() {
         </div>
 
         <p className="mt-8 text-center">
-          1572 klanten waarderen ons gemiddeld met een 4.9/5
+          1572 customers rate us with an average of 4.9/5
         </p>
       </div>
     </section>

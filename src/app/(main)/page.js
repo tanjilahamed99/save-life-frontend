@@ -13,7 +13,7 @@ export default function Home() {
       <Features />
       <BestSellers />
       <InfoSection />
-      <TrustPilotWidget />
+      {/* <TrustPilotWidget /> */}
       <DiscountModal />
       <div>
         <TestimonialSection />

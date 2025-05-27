@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
 
           <div className="col-span-1">
-            <h3 className="font-bold text-lg mb-4">Categorie</h3>
+            <h3 className="font-bold text-lg mb-4">Category</h3>
             <ul className="space-y-2">
               <li>
                 <Link
@@ -82,7 +82,7 @@ export default function Footer() {
           </div>
 
           <div className="md:col-span-2">
-            <h3 className="font-bold text-lg mb-4">Medicijnen & Erectiepillen</h3>
+            <h3 className="font-bold text-lg mb-4">Medicines & Erection Pills</h3>
             <div className="grid xl:grid-cols-2 gap-2">
               <ul className="space-y-2">
                 {Products.slice(0, 20).map((product, index) => (
@@ -112,7 +112,7 @@ export default function Footer() {
           </div>
 
           <div className="col-span-1">
-            <h3 className="font-bold text-lg mb-4">Klantenservice</h3>
+            <h3 className="font-bold text-lg mb-4">Customer Service</h3>
             <ul className="space-y-2">
               <li>
                 <Link
@@ -150,7 +150,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              © BenzoBestellen {new Date().getFullYear()}. Alle rechten voorbehouden.
+              © BenzoBestellen {new Date().getFullYear()}. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <img src="/payment-ideal.png" alt="iDEAL" className="size-8" />

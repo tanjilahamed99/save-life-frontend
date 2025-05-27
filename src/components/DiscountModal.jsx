@@ -63,23 +63,23 @@ const DiscountModal = () => {
             closing ? "modal-exit" : "modal-enter"
           }`}>
           <h2 className="text-2xl font-bold text-center mb-2 text-gray-800">
-            🎁 Welkom bij Benzobestellen!
+            🎁 Welcome to Save Life!
           </h2>
           <p className="text-center text-gray-600 mb-4">
-            We zijn blij dat je er bent! Als welkomstcadeau krijg je:
+            We are glad you're here! As a welcome gift, you get:
           </p>
           <div className="text-center mb-4">
             <p className="text-lg font-semibold text-green-600">
-              ✨ 10% korting op je eerste bestelling!
+              ✨ 10% discount on your first order!
             </p>
             <div className="bg-gray-100 mt-2 py-2 px-4 inline-block rounded-md text-gray-800 font-mono tracking-wide">
-              Kortingscode: <span className="font-bold">Welkom10</span>
+              Discount code: <span className="font-bold">Welcome10</span>
             </div>
           </div>
           <button
             onClick={handleClose}
             className="w-full mt-4 py-2 bg-teal-600 cursor-pointer text-white rounded-lg hover:bg-teal-700 transition">
-            Begin met winkelen
+            Start Shopping
           </button>
         </div>
       </div>
