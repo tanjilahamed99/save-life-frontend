@@ -16,12 +16,11 @@ export default function InfoSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">
-            Waarom Kiezen voor Benzobestellen?
+            Why Choose Save Life
           </h2>
           <div className="w-24 h-1 bg-[#188687] mx-auto"></div>
           <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
-            Al meer dan 3 jaar bieden wij betrouwbare medicatie van hoge
-            kwaliteit. Ontdek waarom duizenden klanten ons vertrouwen.
+           For over 3 years we have been providing reliable, high-quality medication. Discover why thousands of customers trust us.
           </p>
         </div>
 
@@ -34,21 +33,21 @@ export default function InfoSection() {
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-[#188687] mr-4">
                   <Truck className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold">Snelle Levering</h3>
+                <h3 className="text-xl font-bold">Fast Delivery</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Wij leveren binnen 1-2 werkdagen in heel Nederland en Belgie.
-                Met onze spoedoptie bieden we leveringen binnen 24 uur. Uw
-                bestelling wordt discreet verpakt.
+                We deliver within 1-2 working days throughout the Netherlands and Belgium.
+                With our express option, we offer delivery within 24 hours. Your
+                order will be discreetly packaged.
               </p>
               <div className="flex items-center text-[#188687]">
                 <CheckCircle className="h-5 w-5 mr-2 text-teal-500" />
-                <span className="text-sm font-medium">Discrete verpakking</span>
+                <span className="text-sm font-medium">Discreet packaging</span>
               </div>
               <div className="flex items-center text-[#188687] mt-2">
                 <CheckCircle className="h-5 w-5 mr-2 text-teal-500" />
                 <span className="text-sm font-medium">
-                  Track & trace mogelijk
+                  Track & trace available
                 </span>
               </div>
             </div>
@@ -62,22 +61,22 @@ export default function InfoSection() {
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-[#188687] mr-4">
                   <Shield className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold">Kwaliteitsgarantie</h3>
+                <h3 className="text-xl font-bold">Quality guarantee</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Alle producten zijn van hoge kwaliteit en worden geleverd door
-                betrouwbare fabrikanten. Wij garanderen de authenticiteit.
+                All products are of high quality and are supplied by
+                reliable manufacturers. We guarantee authenticity.
               </p>
               <div className="flex items-center text-[#188687]">
                 <CheckCircle className="h-5 w-5 mr-2 text-teal-500" />
                 <span className="text-sm font-medium">
-                  Gegarandeerde kwaliteit
+                  Guaranteed quality
                 </span>
               </div>
               <div className="flex items-center text-[#188687] mt-2">
                 <CheckCircle className="h-5 w-5 mr-2 text-teal-500" />
                 <span className="text-sm font-medium">
-                  Betrouwbare leveranciers
+                  Reliable suppliers
                 </span>
               </div>
             </div>
@@ -91,22 +90,21 @@ export default function InfoSection() {
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-[#188687] mr-4">
                   <CreditCard className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold">Veilige Betaling</h3>
+                <h3 className="text-xl font-bold">Secure Payment</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Wij bieden verschillende veilige betaalmethoden aan, waaronder
-                IDEAL, Bancontant en cryptocurrency voor maximale privacy.
+              We offer several secure payment methods, including IDEAL, Bancontact and cryptocurrency for maximum privacy.
               </p>
               <div className="flex items-center text-[#188687]">
                 <CheckCircle className="h-5 w-5 mr-2 text-teal-500" />
                 <span className="text-sm font-medium">
-                  Meerdere betaalmethoden
+                  Multiple payment methods
                 </span>
               </div>
               <div className="flex items-center text-[#188687] mt-2">
                 <CheckCircle className="h-5 w-5 mr-2 text-teal-500" />
                 <span className="text-sm font-medium">
-                  Beveiligde transacties
+                  Secure transactions
                 </span>
               </div>
             </div>
@@ -118,19 +116,19 @@ export default function InfoSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold mb-2">3+</div>
-              <div className="text-white">Jaren ervaring</div>
+              <div className="text-white">Years of experience</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold mb-2">50k+</div>
-              <div className="text-white">Tevreden klanten</div>
+              <div className="text-white">Satisfied customers</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold mb-2">99%</div>
-              <div className="text-white">Succesvolle leveringen</div>
+              <div className="text-white">Successful deliveries</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold mb-2">24/7</div>
-              <div className="text-white">Klantenservice</div>
+              <div className="text-white">Customer service</div>
             </div>
           </div>
         </div>
@@ -141,24 +139,23 @@ export default function InfoSection() {
         {/* Customer Support Section */}
         <div className="w-full sm:w-[600px] mx-auto mt-16 flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="p-8">
-            <h3 className="text-2xl font-bold mb-4">24/7 Klantenservice</h3>
+            <h3 className="text-2xl font-bold mb-4">24/7 Customer Service</h3>
             <p className="text-gray-600 mb-6">
-              Onze klantenservice staat altijd voor u klaar om al uw vragen te
-              beantwoorden. Wij streven ernaar om u de beste service te bieden.
+              Our customer service is always ready to answer all your questions. We strive to provide you with the best service.
             </p>
             <div className="flex items-center mb-4">
               <Clock className="h-5 w-5 text-[#188687] mr-3" />
-              <span>24/7 beschikbaar</span>
+              <span>24/7 available</span>
             </div>
             <div className="flex items-center mb-4">
               <Package className="h-5 w-5 text-[#188687] mr-3" />
-              <span>Hulp bij bestellingen</span>
+              <span>Assistance with orders</span>
             </div>
             <Link
               href={'/contact'}
               className="mt-4 bg-[#188687] hover:bg-teal-700 text-white font-medium py-2 px-6 rounded-md transition-colors"
             >
-              Contact opnemen
+              Contact us
             </Link>
           </div>
         </div>
