@@ -50,7 +50,7 @@ export default function AddToCartButton({
       } ${className}`}
     >
       <ShoppingCart className="mr-2 h-5 w-5" />
-      <span>In winkelwagen</span>
+      <span>In shopping cart</span>
     </button>
   );
 }

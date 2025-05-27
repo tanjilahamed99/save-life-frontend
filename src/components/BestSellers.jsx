@@ -104,11 +104,10 @@ export default function BestSellers() {
         <div className="flex justify-between items-center mb-8">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              Veel verkocht
+              Sold a lot
             </h2>
             <p className="text-gray-600 mt-1">
-              Bekijk hieronder een selectie van onze producten die veel worden
-              verkocht!
+             Check out a selection of our top selling products below!
             </p>
           </div>
           <div className="hidden md:flex space-x-2">
