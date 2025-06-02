@@ -27,35 +27,35 @@ export default function CheckoutSuccessPage({ searchParams }) {
             <CheckCircle className="h-10 w-10 text-green-600" />
           </div>
 
-          <h1 className="text-3xl font-bold mb-2">
-            Bedankt voor uw bestelling!
-          </h1>
+          <h1 className="text-3xl font-bold mb-2">Thank you for your order!</h1>
           <p className="text-gray-600 mb-6">
-            Uw bestelling is succesvol geplaatst en wordt nu verwerkt.
+            Your order has been successfully placed and is now being processed.
           </p>
 
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2">Bestelnummer:</p>
-            <p className="text-2xl font-bold text-gray-900">#{orderId && orderId.slice(-4)}</p>
+            <p className="text-gray-600 mb-2">Order Number:</p>
+            <p className="text-2xl font-bold text-gray-900">
+              #{orderId && orderId.slice(-4)}
+            </p>
           </div>
 
           <p className="text-gray-600 mb-6">
-            We hebben een bevestigingsmail gestuurd naar uw e-mailadres met de
-            details van uw bestelling. U kunt de status van uw bestelling volgen
-            in uw account.
+            We have sent a confirmation email to your email address with your
+            order details. You can track the status of your order in your
+            account.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Link
               href="/"
               className="px-6 py-3 bg-teal-600 text-white rounded-md hover:bg-teal-700 transition-colors">
-              Terug naar de homepage
+              Back to Homepage
             </Link>
 
             <Link
               href="/dashboard/orders"
               className="px-6 py-3 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-50 transition-colors flex items-center justify-center">
-              Bekijk mijn bestelling
+              View My Order
               <ArrowRight size={16} className="ml-2" />
             </Link>
           </div>
