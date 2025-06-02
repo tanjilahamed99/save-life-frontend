@@ -62,7 +62,7 @@ export default function ProductPage() {
   if (!product) {
     return (
       <div className="container mx-auto px-4 py-12">
-        <h1 className="text-2xl font-bold">Product niet gevonden</h1>
+        <h1 className="text-2xl font-bold">Product not found</h1>
       </div>
     );
   }
@@ -182,7 +182,7 @@ export default function ProductPage() {
                   ? "text-teal-600 border-b-2 border-teal-600"
                   : "text-gray-600"
               }`}>
-              Beschrijving
+              Description
             </button>
           </div>
         </div>

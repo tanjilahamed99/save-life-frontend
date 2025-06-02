@@ -115,7 +115,7 @@ export default function ProductCard({ product }) {
             : 'bg-teal-600 text-white hover:bg-teal-700'
             }`}
         >
-          {product.stock === 0 ? 'Uitverkocht' : 'In winkelwagen'}
+          {product.stock === 0 ? 'Sold Out' : 'Add to Cart'}
         </button>
       </div>
     </div>
