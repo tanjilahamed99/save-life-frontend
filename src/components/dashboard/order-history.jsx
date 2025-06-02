@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useState, useEffect, useMemo } from 'react';
-import Link from 'next/link';
+import { useState, useEffect, useMemo } from "react";
+import Link from "next/link";
 import {
   Search,
   Package,
@@ -15,16 +15,16 @@ import {
   Truck,
   AlertCircle,
   Euro,
-} from 'lucide-react';
-import axiosInstance from '@/utils/axios';
-import { useAuth } from '@/context/AuthContext';
+} from "lucide-react";
+import axiosInstance from "@/utils/axios";
+import { useAuth } from "@/context/AuthContext";
 
 export default function OrderHistory() {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filterStatus, setFilterStatus] = useState('all');
-  const [timeFrame, setTimeFrame] = useState('all');
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filterStatus, setFilterStatus] = useState("all");
+  const [timeFrame, setTimeFrame] = useState("all");
   const { user } = useAuth();
 
   useEffect(() => {
@@ -36,7 +36,7 @@ export default function OrderHistory() {
         );
         setOrders(response?.data?.data || []);
       } catch (error) {
-        console.error('Error fetching orders:', error);
+        console.error("Error fetching orders:", error);
       } finally {
         setLoading(false);
       }
@@ -51,17 +51,17 @@ export default function OrderHistory() {
     const today = new Date();
 
     switch (timeFrame) {
-      case 'last30':
+      case "last30":
         // Last 30 days
         const thirtyDaysAgo = new Date();
         thirtyDaysAgo.setDate(today.getDate() - 30);
         return orderDate >= thirtyDaysAgo;
-      case 'last90':
+      case "last90":
         // Last 90 days
         const ninetyDaysAgo = new Date();
         ninetyDaysAgo.setDate(today.getDate() - 90);
         return orderDate >= ninetyDaysAgo;
-      case 'last365':
+      case "last365":
         // Last year
         const yearAgo = new Date();
         yearAgo.setFullYear(today.getFullYear() - 1);
@@ -78,7 +78,7 @@ export default function OrderHistory() {
           ?.toLowerCase()
           .includes(searchTerm.toLowerCase());
         const matchesStatus =
-          filterStatus === 'all' || order?.orderStatus === filterStatus;
+          filterStatus === "all" || order?.orderStatus === filterStatus;
         const matchesTimeFrame = filterByTimeFrame(order);
         return matchesSearch && matchesStatus && matchesTimeFrame;
       })
@@ -90,59 +90,59 @@ export default function OrderHistory() {
     const statusMap = {
       pending: {
         icon: Clock,
-        label: 'In afwachting',
-        color: 'gray',
-        description: 'Bestelling ontvangen',
+        label: "Pending",
+        color: "gray",
+        description: "Order received",
       },
       processing: {
         icon: Package,
-        label: 'In behandeling',
-        color: 'yellow',
-        description: 'Bestelling wordt verwerkt',
+        label: "Processing",
+        color: "yellow",
+        description: "Order is being processed",
       },
       shipped: {
         icon: Truck,
-        label: 'Verzonden',
-        color: 'blue',
-        description: 'Onderweg naar je adres',
+        label: "Shipped",
+        color: "blue",
+        description: "On the way to your address",
       },
       delivered: {
         icon: CheckCircle,
-        label: 'Afgeleverd',
-        color: 'green',
-        description: 'Bestelling is afgeleverd',
+        label: "Delivered",
+        color: "green",
+        description: "Order has been delivered",
       },
       cancelled: {
         icon: XCircle,
-        label: 'Geannuleerd',
-        color: 'red',
-        description: 'Bestelling is geannuleerd',
+        label: "Cancelled",
+        color: "red",
+        description: "Order has been cancelled",
       },
     };
 
     return (
       statusMap[status] || {
         icon: AlertCircle,
-        label: status || 'Onbekend',
-        color: 'gray',
-        description: 'Status onbekend',
+        label: status || "Onbekend",
+        color: "gray",
+        description: "Status onbekend",
       }
     );
   };
 
   // Payment status helper
   const getPaymentStatusInfo = (status) => {
-    if (status === 'paid') {
-      return { icon: CheckCircle, label: 'Betaald', color: 'green' };
+    if (status === "paid") {
+      return { icon: CheckCircle, label: "Paid", color: "green" };
     }
-    return { icon: AlertCircle, label: status || 'Niet betaald', color: 'red' };
+    return { icon: AlertCircle, label: status || "Not Paid", color: "red" };
   };
 
   const formatDate = (dateString) => {
-    return new Date(dateString).toLocaleDateString('nl-NL', {
-      day: '2-digit',
-      month: '2-digit',
-      year: 'numeric',
+    return new Date(dateString).toLocaleDateString("nl-NL", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
     });
   };
 
@@ -153,19 +153,18 @@ export default function OrderHistory() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div>
             <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
-              Mijn bestellingen
+              My Orders
             </h1>
             <p className="mt-2 text-teal-100">
-              Bekijk en volg al je bestellingen op één plek
+              View and track all your orders in one place
             </p>
           </div>
           <div className="mt-4 md:mt-0">
             <Link
               href="/shop"
-              className="inline-flex text-sm items-center bg-white text-teal-700 px-4 py-2 rounded-lg shadow-sm font-medium hover:bg-teal-50 transition-colors"
-            >
+              className="inline-flex text-sm items-center bg-white text-teal-700 px-4 py-2 rounded-lg shadow-sm font-medium hover:bg-teal-50 transition-colors">
               <ShoppingBag size={18} className="mr-2" />
-              Verder winkelen
+              Continue Shopping
             </Link>
           </div>
         </div>
@@ -178,7 +177,7 @@ export default function OrderHistory() {
           <div className="relative">
             <input
               type="text"
-              placeholder="Zoek op bestelnummer..."
+              placeholder="Search by order number..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
@@ -194,14 +193,13 @@ export default function OrderHistory() {
             <select
               value={filterStatus}
               onChange={(e) => setFilterStatus(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent appearance-none"
-            >
-              <option value="all">Alle statussen</option>
-              <option value="pending">In afwachting</option>
-              <option value="processing">In behandeling</option>
-              <option value="shipped">Verzonden</option>
-              <option value="delivered">Afgeleverd</option>
-              <option value="cancelled">Geannuleerd</option>
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent appearance-none">
+              <option value="all">All statuses</option>
+              <option value="pending">Pending</option>
+              <option value="processing">Processing</option>
+              <option value="shipped">Shipped</option>
+              <option value="delivered">Delivered</option>
+              <option value="cancelled">Cancelled</option>
             </select>
             <Filter
               size={18}
@@ -214,12 +212,11 @@ export default function OrderHistory() {
             <select
               value={timeFrame}
               onChange={(e) => setTimeFrame(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent appearance-none"
-            >
-              <option value="all">Alle bestellingen</option>
-              <option value="last30">Laatste 30 dagen</option>
-              <option value="last90">Laatste 90 dagen</option>
-              <option value="last365">Laatste jaar</option>
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent appearance-none">
+              <option value="all">All orders</option>
+              <option value="last30">Last 30 days</option>
+              <option value="last90">Last 90 days</option>
+              <option value="last365">Last year</option>
             </select>
             <Calendar
               size={18}
@@ -233,30 +230,29 @@ export default function OrderHistory() {
       {!loading && (
         <div className="bg-white rounded-xl shadow-sm p-5 sm:p-6">
           <p className="text-gray-700">
-            <span className="font-semibold">{filteredOrders.length}</span>{' '}
-            bestellingen gevonden
-            {filterStatus !== 'all' && (
+            <span className="font-semibold">{filteredOrders.length}</span>{" "}
+            orders found
+            {filterStatus !== "all" && (
               <span>
-                {' '}
-                met status <span className="font-medium">{filterStatus}</span>
+                {" "}
+                with status <span className="font-medium">{filterStatus}</span>
               </span>
             )}
-            {timeFrame !== 'all' && (
+            {timeFrame !== "all" && (
               <span>
-                {' '}
-                in de{' '}
-                {timeFrame === 'last30'
-                  ? 'laatste 30 dagen'
-                  : timeFrame === 'last90'
-                    ? 'laatste 90 dagen'
-                    : 'laatste jaar'}
+                {" "}
+                in the{" "}
+                {timeFrame === "last30"
+                  ? "last 30 days"
+                  : timeFrame === "last90"
+                  ? "last 90 days"
+                  : "last year"}
               </span>
             )}
             {searchTerm && (
               <span>
-                {' '}
-                die overeenkomen met "
-                <span className="font-medium">{searchTerm}</span>"
+                {" "}
+                matching "<span className="font-medium">{searchTerm}</span>"
               </span>
             )}
           </p>
@@ -275,34 +271,32 @@ export default function OrderHistory() {
               <ShoppingBag size={48} className="text-gray-300" />
             </div>
             <h3 className="text-xl font-medium text-gray-900 mb-2">
-              Geen bestellingen gevonden
+              No orders found
             </h3>
             <p className="text-gray-600 max-w-md mx-auto mb-6">
-              {searchTerm || filterStatus !== 'all' || timeFrame !== 'all'
-                ? 'Probeer andere zoek- of filtercriteria of bekijk al je bestellingen'
-                : 'Je hebt nog geen bestellingen geplaatst'}
+              {searchTerm || filterStatus !== "all" || timeFrame !== "all"
+                ? "Try different search or filter criteria or view all your orders"
+                : "You have not placed any orders yet"}
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               {(searchTerm ||
-                filterStatus !== 'all' ||
-                timeFrame !== 'all') && (
-                  <button
-                    onClick={() => {
-                      setSearchTerm('');
-                      setFilterStatus('all');
-                      setTimeFrame('all');
-                    }}
-                    className="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
-                  >
-                    Filters wissen
-                  </button>
-                )}
+                filterStatus !== "all" ||
+                timeFrame !== "all") && (
+                <button
+                  onClick={() => {
+                    setSearchTerm("");
+                    setFilterStatus("all");
+                    setTimeFrame("all");
+                  }}
+                  className="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors">
+                  Clear Filters
+                </button>
+              )}
               <Link
                 href="/shop"
-                className="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors"
-              >
+                className="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors">
                 <ShoppingBag size={18} className="mr-2" />
-                Begin met winkelen
+                Start shopping
               </Link>
             </div>
           </div>
@@ -315,14 +309,13 @@ export default function OrderHistory() {
               return (
                 <li
                   key={order._id}
-                  className="p-5 sm:p-6 hover:bg-gray-50 transition-colors"
-                >
+                  className="p-5 sm:p-6 hover:bg-gray-50 transition-colors">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                     {/* Order Info - Left Side */}
                     <div className="flex-1">
                       <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-2">
                         <h3 className="font-medium text-lg text-gray-900 truncate">
-                          Bestelling #{order._id?.slice(0, 8)}
+                          Order #{order._id?.slice(0, 8)}
                         </h3>
                         <StatusBadge
                           icon={statusInfo.icon}
@@ -340,10 +333,10 @@ export default function OrderHistory() {
                         <div className="flex items-center text-gray-600">
                           <ShoppingBag size={16} className="mr-1" />
                           <span>
-                            {order?.items?.length || 0}{' '}
+                            {order?.items?.length || 0}{" "}
                             {(order?.items?.length || 0) === 1
-                              ? 'item'
-                              : 'items'}
+                              ? "item"
+                              : "items"}
                           </span>
                         </div>
                         <div className="flex items-center text-gray-600 gap-2 border border-gray-200 rounded-full px-2 pr-4 py-0.5">
@@ -354,9 +347,7 @@ export default function OrderHistory() {
                             color={paymentInfo.color}
                             small
                           />
-                          <span>
-                            {paymentInfo.label}
-                          </span>
+                          <span>{paymentInfo.label}</span>
                         </div>
                       </div>
 
@@ -381,8 +372,7 @@ export default function OrderHistory() {
                       {/* Details button */}
                       <Link
                         href={`/dashboard/orders/${order._id}`}
-                        className="inline-flex items-center justify-center px-4 py-2 bg-teal-50 text-teal-700 rounded-lg hover:bg-teal-100 transition-colors font-medium"
-                      >
+                        className="inline-flex items-center justify-center px-4 py-2 bg-teal-50 text-teal-700 rounded-lg hover:bg-teal-100 transition-colors font-medium">
                         Details
                         <ChevronRight size={18} className="ml-1" />
                       </Link>
@@ -400,7 +390,7 @@ export default function OrderHistory() {
         <div className="flex justify-center mt-6">
           <nav className="flex items-center space-x-2">
             <button className="px-3 py-2 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200">
-              Vorige
+              Previous
             </button>
             <button className="px-3 py-2 rounded-md bg-teal-600 text-white">
               1
@@ -413,7 +403,7 @@ export default function OrderHistory() {
             </button>
             <span className="px-3 py-2">...</span>
             <button className="px-3 py-2 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200">
-              Volgende
+              Next
             </button>
           </nav>
         </div>
@@ -424,21 +414,20 @@ export default function OrderHistory() {
 
 function StatusBadge({ icon: Icon, text, color, small = false }) {
   const colorClasses = {
-    yellow: 'text-yellow-700 bg-yellow-50 border-yellow-200',
-    blue: 'text-blue-700 bg-blue-50 border-blue-200',
-    green: 'text-green-700 bg-green-50 border-green-200',
-    gray: 'text-gray-700 bg-gray-50 border-gray-200',
-    red: 'text-red-700 bg-red-50 border-red-200',
+    yellow: "text-yellow-700 bg-yellow-50 border-yellow-200",
+    blue: "text-blue-700 bg-blue-50 border-blue-200",
+    green: "text-green-700 bg-green-50 border-green-200",
+    gray: "text-gray-700 bg-gray-50 border-gray-200",
+    red: "text-red-700 bg-red-50 border-red-200",
   };
 
   return (
     <span
       className={`
         inline-flex items-center justify-center rounded-full 
-        ${small ? 'text-xs px-2 py-0.5' : 'text-xs sm:text-sm px-2.5 py-1'} 
+        ${small ? "text-xs px-2 py-0.5" : "text-xs sm:text-sm px-2.5 py-1"} 
         uppercase font-medium border ${colorClasses[color]}
-      `}
-    >
+      `}>
       <Icon size={small ? 12 : 14} className="mr-1" />
       {text}
     </span>

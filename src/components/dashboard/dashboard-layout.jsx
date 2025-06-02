@@ -31,13 +31,13 @@ export default function DashboardLayout({ children }) {
       active: pathname === "/dashboard",
     },
     {
-      label: "Bestellingen",
+      label: "Orders",
       href: "/dashboard/orders",
       icon: <Package size={20} className="mr-3" />,
       active: pathname === "/dashboard/orders",
     },
     {
-      label: "portemonnee",
+      label: "Wallet",
       href: "/dashboard/wallet",
       icon: <EuroIcon size={20} className="mr-3" />,
       active: pathname === "/dashboard/wallet",
@@ -49,7 +49,7 @@ export default function DashboardLayout({ children }) {
       active: pathname === '/dashboard/tickets',
     },
     {
-      label: "Adressen",
+      label: "Addresses",
       href: "/dashboard/addresses",
       icon: <MapPin size={20} className="mr-3" />,
       active: pathname === "/dashboard/addresses",
@@ -67,7 +67,7 @@ export default function DashboardLayout({ children }) {
       active: pathname === "/dashboard/wishlist",
     },
     {
-      label: "Account gegevens",
+      label: "Account Information",
       href: "/dashboard/account",
       icon: <User size={20} className="mr-3" />,
       active: pathname === "/dashboard/account",
@@ -90,7 +90,7 @@ export default function DashboardLayout({ children }) {
     <div className="container mx-auto px-4 py-6">
       <Breadcrumb
         items={[
-          { label: "Mijn account", href: "/dashboard" },
+          { label: "My account", href: "/dashboard" },
           { label: currentPage, href: pathname },
         ]}
       />
@@ -98,7 +98,7 @@ export default function DashboardLayout({ children }) {
       <div className="mt-6 flex flex-col md:flex-row gap-8">
         {/* Mobile Menu Toggle */}
         <div className="md:hidden flex justify-between items-center bg-white rounded-lg shadow-sm p-4 mb-4">
-          <h2 className="text-lg font-bold">Mijn account</h2>
+          <h2 className="text-lg font-bold">My account</h2>
           <button onClick={toggleMobileMenu} className="text-gray-600 hover:text-teal-600">
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -108,8 +108,8 @@ export default function DashboardLayout({ children }) {
         <div className={`md:w-1/4 ${isMobileMenuOpen ? "block" : "hidden md:block"}`}>
           <div className="bg-white rounded-lg shadow-sm overflow-hidden">
             <div className="p-6 border-b">
-              <h2 className="text-lg font-bold">Mijn account</h2>
-              <p className="text-gray-600 mt-1">Welkom terug, {user?.name}</p>
+              <h2 className="text-lg font-bold">My account</h2>
+              <p className="text-gray-600 mt-1">Welcome back, {user?.name}</p>
             </div>
 
             <nav className="p-4">
@@ -134,7 +134,7 @@ export default function DashboardLayout({ children }) {
                     className="flex cursor-pointer items-center py-2 px-3 rounded-md text-gray-700 hover:bg-gray-50 transition-colors"
                   >
                     <LogOut size={20} className="mr-3" />
-                    <span>Uitloggen</span>
+                    <span>Log out</span>
                   </button>
                 </li>
               </ul>

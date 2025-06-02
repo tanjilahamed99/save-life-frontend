@@ -1,15 +1,14 @@
-import DashboardLayout from "@/components/dashboard/dashboard-layout"
-import DashboardOverview from "@/components/dashboard/dashboard-overview"
+import DashboardLayout from "@/components/dashboard/dashboard-layout";
+import DashboardOverview from "@/components/dashboard/dashboard-overview";
 
 export const metadata = {
-	title: "Dashboard | Benzobestellen",
-	description: "Dashboard for Benzobestellen",
-}
+  title: "Dashboard | Save Life",
+  description: "Dashboard for Save Life",
+};
 export default function DashboardPage() {
-	return (
-		<DashboardLayout>
-			<DashboardOverview />
-		</DashboardLayout>
-	)
+  return (
+    <DashboardLayout>
+      <DashboardOverview />
+    </DashboardLayout>
+  );
 }
-
