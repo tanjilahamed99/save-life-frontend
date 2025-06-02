@@ -121,25 +121,25 @@ export default function ShopPage() {
         {/* Products */}
         <div className="lg:w-3/4">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
-            <h1 className="text-2xl font-bold">All medicijnen kopen</h1>
+            <h1 className="text-2xl font-bold">Buy all medicines</h1>
 
             <div className="flex items-center md:space-x-4 mt-4 md:mt-0">
               <div className="flex items-center">
                 <span className="text-sm text-gray-600 mr-2 hidden md:inline">
-                  Sorteren op:
+                  Sort by:
                 </span>
                 <span className="text-[11px] mr-2 text-gray-600 md:hidden">
-                  Sorteren:
+                  Sort by:
                 </span>
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className="border border-gray-300 rounded-md px-2 py-1 text-sm">
-                  <option value="default">Standaard sortering</option>
-                  <option value="price-asc">Prijs: laag naar hoog</option>
-                  <option value="price-desc">Prijs: hoog naar laag</option>
-                  <option value="name-asc">Naam: A-Z</option>
-                  <option value="name-desc">Naam: Z-A</option>
+                  <option value="default">Default sorting</option>
+                  <option value="price-asc">Price: low to high</option>
+                  <option value="price-desc">Price: high to low</option>
+                  <option value="name-asc">Name: A-Z</option>
+                  <option value="name-desc">Name: Z-A</option>
                 </select>
               </div>
 
@@ -160,11 +160,11 @@ export default function ShopPage() {
             </div>
           </div>
 
-          <h2 className="text-xl font-bold mb-6">All medicijnen kopen</h2>
+          <h2 className="text-xl font-bold mb-6">Buy all medicines</h2>
 
           {currentProducts.length === 0 ? (
             <div className="text-center py-12">
-              <p className="text-gray-600">Geen producten gevonden.</p>
+              <p className="text-gray-600">No products found.</p>
             </div>
           ) : viewMode === "grid" ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">

@@ -38,11 +38,11 @@ export default function CategorySidebar({
 
   const categories = [
     {
-      name: "All Medicijnen",
+      name: "All Medicines",
       href: "/category/medicijnen",
     },
     {
-      name: "All Erection",
+      name: "all Erection Pills",
       href: "/category/erection",
     },
   ];
@@ -120,7 +120,7 @@ export default function CategorySidebar({
     <div className="space-y-8 sticky top-32">
       {/* Categories */}
       <div>
-        <h3 className="font-bold text-lg mb-4">Categorieën</h3>
+        <h3 className="font-bold text-lg mb-4">Categories</h3>
         <ul className="space-y-2 ">
           {categories.map((category, index) => (
             <li key={index} className="border border-gray-200 rounded p-5">
@@ -143,7 +143,7 @@ export default function CategorySidebar({
         <div
           className="flex justify-between items-center cursor-pointer"
           onClick={() => setIsFilterOpen(!isFilterOpen)}>
-          <h3 className="font-bold text-lg">Prijs Filter</h3>
+          <h3 className="font-bold text-lg">Price Filter</h3>
           {isFilterOpen ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
         </div>
 
@@ -200,7 +200,7 @@ export default function CategorySidebar({
 
       {/* Recent Products */}
       <div>
-        <h3 className="font-bold text-lg mb-4">Recent Bekeken Producten</h3>
+        <h3 className="font-bold text-lg mb-4">Recently Viewed Products</h3>
         <div className="space-y-4">
           {recentProducts.map((product) => (
             <Link
