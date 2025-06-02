@@ -1,27 +1,27 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import axiosInstance from '@/utils/axios';
-import { useAuth } from '@/context/AuthContext';
-import { toast } from 'sonner';
+import { useState, useEffect } from "react";
+import axiosInstance from "@/utils/axios";
+import { useAuth } from "@/context/AuthContext";
+import { toast } from "sonner";
 
 export default function AccountDetails() {
   const [profile, setProfile] = useState(null);
   const [isEditing, setIsEditing] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
+    name: "",
+    email: "",
+    phone: "",
   });
   const { user, loading, refetch } = useAuth();
 
   const [isChangingPassword, setIsChangingPassword] = useState(false);
   const [passwordData, setPasswordData] = useState({
-    currentPassword: '',
-    newPassword: '',
-    confirmPassword: '',
+    currentPassword: "",
+    newPassword: "",
+    confirmPassword: "",
   });
-  const [passwordError, setPasswordError] = useState('');
+  const [passwordError, setPasswordError] = useState("");
 
   const fetchProfile = async () => {
     try {
@@ -33,10 +33,10 @@ export default function AccountDetails() {
       setFormData({
         name: userProfile.data?.data?.name,
         email: userProfile?.data?.data?.email,
-        phone: userProfile?.data?.data?.phone || '',
+        phone: userProfile?.data?.data?.phone || "",
       });
     } catch (error) {
-      console.error('Error fetching user profile:', error);
+      console.error("Error fetching user profile:", error);
     } finally {
       // setLoading(false);
     }
@@ -73,7 +73,7 @@ export default function AccountDetails() {
     //   ...formData,
     // });
 
-    const tokenId = toast.loading('Loading...');
+    const tokenId = toast.loading("Loading...");
 
     try {
       const response = await axiosInstance.put(`/users/${user?._id}`, {
@@ -83,13 +83,13 @@ export default function AccountDetails() {
       });
 
       if (response?.data?.status) {
-        toast.success('Profile updated successfully!');
+        toast.success("Profile updated successfully!");
 
         refetch();
         fetchProfile();
       }
     } catch (error) {
-      toast.error('Something went wrong!', { id: tokenId, duration: 2000 });
+      toast.error("Something went wrong!", { id: tokenId, duration: 2000 });
     }
   };
 
@@ -98,12 +98,12 @@ export default function AccountDetails() {
 
     // Validate passwords
     if (passwordData.newPassword !== passwordData.confirmPassword) {
-      setPasswordError('Wachtwoorden komen niet overeen');
+      setPasswordError("Wachtwoorden komen niet overeen");
       return;
     }
 
     if (passwordData.newPassword.length < 8) {
-      setPasswordError('Wachtwoord moet minimaal 8 tekens bevatten');
+      setPasswordError("Wachtwoord moet minimaal 8 tekens bevatten");
       return;
     }
 
@@ -111,11 +111,11 @@ export default function AccountDetails() {
 
     // Reset form and close
     setPasswordData({
-      currentPassword: '',
-      newPassword: '',
-      confirmPassword: '',
+      currentPassword: "",
+      newPassword: "",
+      confirmPassword: "",
     });
-    setPasswordError('');
+    setPasswordError("");
     setIsChangingPassword(false);
   };
 
@@ -130,22 +130,21 @@ export default function AccountDetails() {
   return (
     <div className="space-y-6">
       <div className="bg-white rounded-lg shadow-sm p-6">
-        <h1 className="text-2xl font-bold">Account gegevens</h1>
+        <h1 className="text-2xl font-bold">Account Information</h1>
         <p className="text-gray-600 mt-2">
-          Beheer je persoonlijke gegevens en wachtwoord
+          Manage your personal information and password
         </p>
       </div>
 
       {/* Personal Information */}
       <div className="bg-white rounded-lg shadow-sm p-6">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-lg font-bold">Persoonlijke gegevens</h2>
+          <h2 className="text-lg font-bold">Personal Information</h2>
           {!isEditing && (
             <button
               onClick={() => setIsEditing(true)}
-              className="text-sm text-teal-600 hover:text-teal-700 font-medium"
-            >
-              Bewerken
+              className="text-sm text-teal-600 hover:text-teal-700 font-medium">
+              Edit
             </button>
           )}
         </div>
@@ -155,7 +154,7 @@ export default function AccountDetails() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Naam *
+                  Name *
                 </label>
                 <input
                   type="text"
@@ -169,7 +168,7 @@ export default function AccountDetails() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  E-mailadres *
+                  Email Address *
                 </label>
                 <input
                   type="email"
@@ -183,7 +182,7 @@ export default function AccountDetails() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Telefoonnummer
+                  Phone Number
                 </label>
                 <input
                   type="tel"
@@ -199,133 +198,35 @@ export default function AccountDetails() {
               <button
                 type="button"
                 onClick={() => setIsEditing(false)}
-                className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
-              >
-                Annuleren
+                className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors">
+                Cancel
               </button>
               <button
                 type="submit"
-                className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors"
-              >
-                Opslaan
+                className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors">
+                Save
               </button>
             </div>
           </form>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4">
             <div>
-              <p className="text-sm text-gray-600">Naam</p>
+              <p className="text-sm text-gray-600">Name</p>
               <p className="font-medium">{profile?.name}</p>
             </div>
 
             <div>
-              <p className="text-sm text-gray-600">E-mailadres</p>
+              <p className="text-sm text-gray-600">Email Address</p>
               <p className="font-medium">{profile?.email}</p>
             </div>
 
             <div>
-              <p className="text-sm text-gray-600">Telefoonnummer</p>
-              <p className="font-medium">{profile?.phone || '-'}</p>
+              <p className="text-sm text-gray-600">Phone Number</p>
+              <p className="font-medium">{profile?.phone || "-"}</p>
             </div>
           </div>
         )}
       </div>
-
-      {/* Password Change */}
-      {/* <div className="bg-white rounded-lg shadow-sm p-6">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-lg font-bold">Wachtwoord wijzigen</h2>
-          {!isChangingPassword && (
-            <button
-              onClick={() => setIsChangingPassword(true)}
-              className="text-sm text-teal-600 hover:text-teal-700 font-medium"
-            >
-              Wijzigen
-            </button>
-          )}
-        </div>
-
-        {isChangingPassword ? (
-          <form onSubmit={handlePasswordSubmit}>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Huidig wachtwoord *
-                </label>
-                <input
-                  type="password"
-                  name="currentPassword"
-                  value={passwordData.currentPassword}
-                  onChange={handlePasswordChange}
-                  required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Nieuw wachtwoord *
-                </label>
-                <input
-                  type="password"
-                  name="newPassword"
-                  value={passwordData.newPassword}
-                  onChange={handlePasswordChange}
-                  required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Bevestig nieuw wachtwoord *
-                </label>
-                <input
-                  type="password"
-                  name="confirmPassword"
-                  value={passwordData.confirmPassword}
-                  onChange={handlePasswordChange}
-                  required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                />
-              </div>
-
-              {passwordError && (
-                <p className="text-red-600 text-sm">{passwordError}</p>
-              )}
-            </div>
-
-            <div className="mt-6 flex justify-end space-x-3">
-              <button
-                type="button"
-                onClick={() => {
-                  setIsChangingPassword(false);
-                  setPasswordData({
-                    currentPassword: '',
-                    newPassword: '',
-                    confirmPassword: '',
-                  });
-                  setPasswordError('');
-                }}
-                className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
-              >
-                Annuleren
-              </button>
-              <button
-                type="submit"
-                className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors"
-              >
-                Wachtwoord wijzigen
-              </button>
-            </div>
-          </form>
-        ) : (
-          <p className="text-gray-600">
-            Je kunt hier je wachtwoord wijzigen. Voor je veiligheid, gebruik een
-            sterk wachtwoord dat je nergens anders gebruikt.
-          </p>
-        )}
-      </div> */}
     </div>
   );
 }

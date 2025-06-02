@@ -1,16 +1,15 @@
-import DashboardLayout from "@/components/dashboard/dashboard-layout"
-import AccountDetails from "@/components/dashboard/account-details"
+import DashboardLayout from "@/components/dashboard/dashboard-layout";
+import AccountDetails from "@/components/dashboard/account-details";
 
 export const metadata = {
-	title: "Account | Benzobestellen",
-	description: "Account for Benzobestellen",
-}
+  title: "Account | Save Life",
+  description: "Manage your account settings",
+};
 
 export default function AccountPage() {
-	return (
-		<DashboardLayout>
-			<AccountDetails />
-		</DashboardLayout>
-	)
+  return (
+    <DashboardLayout>
+      <AccountDetails />
+    </DashboardLayout>
+  );
 }
-
