@@ -5,7 +5,9 @@ import Link from "next/link";
 export default function AboutPage() {
   return (
     <div className="flex min-h-screen flex-col px-4 py-6">
-      <Breadcrumb items={[{ label: "Contact", href: "/over-ons" }]} />
+      <div className="container mx-auto">
+      <Breadcrumb items={[{ label: "About us", href: "/over-ons" }]} />
+      </div>
       <main>
         {/* Hero Section */}
         <section className="bg-[#188687] py-16 text-white mt-8">
