@@ -10,16 +10,15 @@ export default function BlogPage() {
   const [category, setCategory] = useState("Alle categorieën");
   const [blogPosts, setBlogPosts] = useState([]);
 
-  const categories = [
-    "Alle categorieën",
-    "Informatie",
-    "Producten",
-    "Veiligheid",
-    "Geschiedenis",
-    "Nieuws",
-    "Wetgeving",
-  ];
-
+const categories = [
+  "All categories",
+  "Information",
+  "Products",
+  "Safety",
+  "History",
+  "News",
+  "Legislation",
+];
   useEffect(() => {
     const fetchData = async () => {
       const blogsData = await getBlogsByCategory(category);
@@ -136,11 +135,11 @@ export default function BlogPage() {
           <div className="md:w-1/4">
             {/* Search */}
             <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
-              <h3 className="font-bold text-lg mb-4">Zoeken</h3>
+              <h3 className="font-bold text-lg mb-4">Search</h3>
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="Zoeken..."
+                  placeholder="Search..."
                   className="w-full py-2 pl-4 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                 />
                 <button className="absolute right-0 top-0 h-full px-3 text-gray-500 hover:text-teal-600">
@@ -163,7 +162,7 @@ export default function BlogPage() {
 
             {/* Categories */}
             <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
-              <h3 className="font-bold text-lg mb-4">Categorieën</h3>
+              <h3 className="font-bold text-lg mb-4">Categories</h3>
               <ul className="space-y-2">
                 {categories.map((c, index) => (
                   <li onClick={() => setCategory(c)} key={index}>
@@ -182,7 +181,7 @@ export default function BlogPage() {
 
             {/* Recent Posts */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="font-bold text-lg mb-4">Recente Posts</h3>
+              <h3 className="font-bold text-lg mb-4">Recent Posts</h3>
               <div className="space-y-4">
                 {blogPosts.slice(0, 3).map((post) => (
                   <Link

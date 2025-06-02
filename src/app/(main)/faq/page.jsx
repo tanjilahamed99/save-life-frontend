@@ -1,110 +1,110 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
-import Breadcrumb from '@/components/Breadcrumb';
+import { useState } from "react";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export default function FAQPage() {
   const [openIndex, setOpenIndex] = useState(0);
 
   const faqCategories = [
     {
-      title: 'Bestellingen',
+      title: "Orders",
       questions: [
         {
-          question: 'Hoe kan ik een bestelling plaatsen?',
+          question: "How can I place an order?",
           answer:
-            'U kunt eenvoudig een bestelling plaatsen via onze website. Selecteer de gewenste producten, voeg ze toe aan uw winkelwagen en volg de stappen om de bestelling af te ronden.',
+            "You can easily place an order through our Save Life website. Select the desired products, add them to your cart, and follow the steps to complete your purchase.",
         },
         {
-          question: 'Kan ik een bestelling annuleren?',
+          question: "Can I cancel an order?",
           answer:
-            'Ja, u kunt een bestelling annuleren voordat deze wordt verzonden. Neem hiervoor zo snel mogelijk contact op met onze klantenservice via e-mail of telefoon.',
+            "Yes, you can cancel your order before it has been shipped. Please contact our customer service as soon as possible via email or phone.",
         },
         {
-          question: 'Hoe kan ik de status van mijn bestelling controleren?',
+          question: "How can I check the status of my order?",
           answer:
-            "U kunt de status van uw bestelling controleren door in te loggen op uw account en naar 'Bestellingen' te gaan. Hier vindt u een overzicht van al uw bestellingen en hun huidige status.",
+            "Log in to your account and go to 'Orders' to view the status of your order. You'll find an overview of all your orders and their current status.",
         },
       ],
     },
     {
-      title: 'Verzending & Levering',
+      title: "Shipping & Delivery",
       questions: [
         {
-          question: 'Hoe lang duurt de levering?',
+          question: "How long does delivery take?",
           answer:
-            'Wij streven ernaar om alle bestellingen binnen 24 uur te leveren in Nederland. Voor België en andere Europese landen kan de levertijd 2-3 werkdagen bedragen.',
+            "We aim to deliver all orders within 24 hours in the Netherlands. For Belgium and other European countries, delivery may take 2–3 working days.",
         },
         {
-          question: 'Zijn de verzendingen discreet?',
+          question: "Are shipments discreet?",
           answer:
-            'Ja, al onze verzendingen zijn volledig discreet. De verpakking is neutraal zonder verwijzingen naar de inhoud of ons bedrijf.',
+            "Yes, all our shipments are completely discreet. Packaging is plain and does not mention the contents or our company name.",
         },
         {
-          question: 'Wat zijn de verzendkosten?',
+          question: "What are the shipping costs?",
           answer:
-            'De verzendkosten zijn afhankelijk van uw locatie en de grootte van uw bestelling. Voor bestellingen boven €100 bieden we gratis verzending binnen Nederland.',
+            "Shipping costs depend on your location and the size of your order. Orders over €100 receive free shipping within the Netherlands.",
         },
       ],
     },
     {
-      title: 'Betaling',
+      title: "Payment",
       questions: [
         {
-          question: 'Welke betaalmethoden accepteren jullie?',
+          question: "What payment methods do you accept?",
           answer:
-            'We accepteren verschillende betaalmethoden, waaronder iDEAL, Bancontact, creditcard (Visa en Mastercard) en PayPal.',
+            "We accept various payment methods including iDEAL, Bancontact, credit card (Visa and Mastercard), and PayPal.",
         },
         {
-          question: 'Is betalen veilig?',
+          question: "Is payment secure?",
           answer:
-            'Ja, alle betalingen worden verwerkt via beveiligde verbindingen. We maken gebruik van de nieuwste encryptietechnologieën om uw gegevens te beschermen.',
+            "Yes, all payments are processed through secure connections. We use the latest encryption technologies to protect your data.",
         },
         {
-          question: 'Wanneer wordt mijn betaling verwerkt?',
+          question: "When is my payment processed?",
           answer:
-            'Uw betaling wordt direct verwerkt bij het plaatsen van uw bestelling. Zodra de betaling is bevestigd, wordt uw bestelling klaargemaakt voor verzending.',
+            "Your payment is processed immediately when placing the order. Once payment is confirmed, your order will be prepared for shipping.",
         },
       ],
     },
     {
-      title: 'Producten',
+      title: "Products",
       questions: [
         {
-          question: 'Wat is de kwaliteit van jullie producten?',
+          question: "What is the quality of your products?",
           answer:
-            'Al onze producten zijn van de hoogste kwaliteit. We werken samen met gerenommeerde leveranciers en testen onze producten regelmatig om de kwaliteit te garanderen.',
+            "All our products are of the highest quality. We work with reputable suppliers and regularly test our products to ensure quality.",
         },
         {
-          question: 'Zijn jullie producten legaal?',
+          question: "Are your products legal?",
           answer:
-            'Al onze producten worden verkocht als research chemicals voor onderzoeksdoeleinden en zijn niet bedoeld voor menselijke consumptie. Het is de verantwoordelijkheid van de koper om zich te houden aan de lokale wetgeving.',
+            "All our products are sold as research chemicals for research purposes only and are not intended for human consumption. It is the buyer’s responsibility to comply with local laws.",
         },
         {
-          question: 'Hoe moet ik de producten bewaren?',
+          question: "How should I store the products?",
           answer:
-            'We raden aan om onze producten te bewaren op een koele, droge plaats, uit de buurt van direct zonlicht en hittebronnen. Voor specifieke bewaarinstructies per product, raadpleeg de productpagina.',
+            "We recommend storing our products in a cool, dry place away from direct sunlight and heat. For specific storage instructions, please refer to the product page.",
         },
       ],
     },
     {
-      title: 'Retourneren',
+      title: "Returns",
       questions: [
         {
-          question: 'Wat is jullie retourbeleid?',
+          question: "What is your return policy?",
           answer:
-            'We accepteren retourzendingen binnen 14 dagen na ontvangst van uw bestelling, mits de producten ongeopend en in de originele verpakking zijn. Neem contact op met onze klantenservice voordat u een product retourneert.',
+            "We accept returns within 14 days of receiving your order, provided the products are unopened and in their original packaging. Please contact our customer service before returning any item.",
         },
         {
-          question: 'Hoe vraag ik een retourzending aan?',
+          question: "How do I request a return?",
           answer:
-            "Om een retourzending aan te vragen, logt u in op uw account en gaat u naar 'Mijn Bestellingen'. Selecteer de bestelling en klik op 'Retourneren'. Volg de instructies om het retourproces te voltooien.",
+            "To request a return, log in to your account and go to 'My Orders'. Select the order and click on 'Return'. Follow the instructions to complete the return process.",
         },
         {
-          question: 'Wanneer ontvang ik mijn terugbetaling?',
+          question: "When will I receive my refund?",
           answer:
-            'Nadat we uw retourzending hebben ontvangen en gecontroleerd, verwerken we uw terugbetaling binnen 5-7 werkdagen. Het kan nog eens 3-5 werkdagen duren voordat het bedrag op uw rekening staat, afhankelijk van uw bank.',
+            "Once we have received and inspected your return, we will process your refund within 5–7 business days. It may take an additional 3–5 days for the funds to appear in your account, depending on your bank.",
         },
       ],
     },
@@ -116,17 +116,18 @@ export default function FAQPage() {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      <Breadcrumb items={[{ label: 'FAQ', href: '/faq' }]} />
+      <Breadcrumb items={[{ label: "FAQ", href: "/faq" }]} />
 
       <div className="max-w-4xl mx-auto mt-8">
-        <h1 className="text-3xl font-bold mb-6">Veelgestelde Vragen</h1>
+        <h1 className="text-3xl font-bold mb-6">
+          Frequently Asked Questions (FAQ)
+        </h1>
 
         <div className="space-y-8">
           {faqCategories.map((category, categoryIndex) => (
             <div
               key={categoryIndex}
-              className="bg-white rounded-lg shadow-sm overflow-hidden"
-            >
+              className="bg-white rounded-lg shadow-sm overflow-hidden">
               <h2 className="text-xl font-bold p-6 border-b">
                 {category.title}
               </h2>
@@ -138,8 +139,7 @@ export default function FAQPage() {
                     <div key={faqIndex} className="border-t">
                       <button
                         className="flex justify-between items-center w-full p-6 text-left"
-                        onClick={() => handleToggle(index)}
-                      >
+                        onClick={() => handleToggle(index)}>
                         <span className="font-medium text-gray-900">
                           {faq.question}
                         </span>
@@ -164,16 +164,17 @@ export default function FAQPage() {
         </div>
 
         <div className="mt-12 bg-teal-50 rounded-lg p-6">
-          <h2 className="text-xl font-bold mb-4">Heeft u nog andere vragen?</h2>
+          <h2 className="text-xl font-bold mb-4">
+            Do you have other questions?
+          </h2>
           <p className="text-gray-600 mb-4">
-            Heeft u een vraag die niet in onze FAQ staat? Neem dan contact met
-            ons op via ons contactformulier of stuur ons een e-mail.
+            Have a question that isn’t in our FAQ? Contact us via our contact
+            form or send us an email.
           </p>
           <a
             href="/contact"
-            className="inline-block bg-teal-600 text-white font-medium px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
-          >
-            Contact opnemen
+            className="inline-block bg-teal-600 text-white font-medium px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">
+            Contact us
           </a>
         </div>
       </div>

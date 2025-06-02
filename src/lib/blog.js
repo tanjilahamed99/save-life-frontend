@@ -1,128 +1,126 @@
 export const blogs = [
   {
     id: 1,
-    shortTitle:
-      "Clonazepam (Rivotril): Behandeling voor Angststoornissen en Epilepsie",
-    date: "15 maart 2025",
+    shortTitle: "Clonazepam (Rivotril): Treatment for Anxiety Disorders and Epilepsy",
+    date: "March 15, 2025",
     author: "Jemin Bond",
     excerpt: 10,
-    title:
-      "Clonazepam (merknaam Rivotril) is een voorgeschreven medicijn dat voornamelijk wordt gebruikt voor de behandeling van angststoornissen, paniekaanvallen en bepaalde vormen van epilepsie. Als een benzodiazepine versterkt het het effect van GABA, een kalmerende neurotransmitter in de hersenen.",
-    category: "Producten",
+    title: "Clonazepam (brand name Rivotril) is a prescription medication primarily used to treat anxiety disorders, panic attacks, and certain types of epilepsy. As a benzodiazepine, it enhances the effect of GABA, a calming neurotransmitter in the brain.",
+    category: "Products",
     image: "/images/products/Clonazepam2mg.webp",
-    content: `<p><strong>Clonazepam</strong> is een geneesmiddel dat behoort tot de benzodiazepinen. Het heeft kalmerende, spierontspannende, angstverminderende en anti-epileptische eigenschappen.</p>
+    content: `<p><strong>Clonazepam</strong> is a medication belonging to the benzodiazepine class. It has sedative, muscle-relaxing, anti-anxiety, and anti-epileptic properties.</p>
 
-<p><strong>Overzicht:</strong></p>
+<p><strong>Overview:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Waarvoor clonazepam wordt gebruikt</li>
-  <li>Juiste doseringsrichtlijnen</li>
-  <li>Veelvoorkomende bijwerkingen & risico's</li>
-  <li>Verslavingspotentieel & ontwenningsverschijnselen</li>
-  <li>Veiligheidsmaatregelen & alternatieven</li>
+  <li>What clonazepam is used for</li>
+  <li>Proper dosage guidelines</li>
+  <li>Common side effects & risks</li>
+  <li>Addiction potential & withdrawal symptoms</li>
+  <li>Safety precautions & alternatives</li>
 </ul>
 
-<p><strong>Wat is Clonazepam?</strong></p>
-<p>Clonazepam is een benzodiazepine die overmatige hersenactiviteit kalmeert. Het wordt vaak voorgeschreven voor verschillende medische aandoeningen.</p>
+<p><strong>What is Clonazepam?</strong></p>
+<p>Clonazepam is a benzodiazepine that calms excessive brain activity. It is often prescribed for various medical conditions.</p>
 
-<p><strong>Indicaties:</strong></p>
+<p><strong>Indications:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Gegeneraliseerde angststoornis</li>
-  <li>Paniekaanstoornis</li>
-  <li>Sociale fobie</li>
-  <li>Epilepsie (aanvullende behandeling)</li>
-  <li>Myoclonische aanvallen</li>
-  <li>Absences</li>
-  <li>Slapeloosheid (off-label gebruik)</li>
-  <li>Rustelozebenensyndroom (RLS)</li>
+  <li>Generalized anxiety disorder</li>
+  <li>Panic disorder</li>
+  <li>Social phobia</li>
+  <li>Epilepsy (adjunctive treatment)</li>
+  <li>Myoclonic seizures</li>
+  <li>Absence seizures</li>
+  <li>Insomnia (off-label use)</li>
+  <li>Restless legs syndrome (RLS)</li>
 </ul>
 
-<p><strong>Hoe werkt Clonazepam?</strong></p>
-<p>Clonazepam versterkt het effect van GABA, een kalmerende neurotransmitter in de hersenen, wat leidt tot de volgende therapeutische effecten:</p>
+<p><strong>How Does Clonazepam Work?</strong></p>
+<p>Clonazepam enhances the effect of GABA, a calming neurotransmitter in the brain, leading to the following therapeutic effects:</p>
 <ul class="list-disc list-inside">
-  <li>Vermindert angst</li>
-  <li>Ontspant spieren</li>
-  <li>Anti-epileptische effecten</li>
-  <li>Veroorzaakt een kalmerend effect bij hogere doseringen</li>
+  <li>Reduces anxiety</li>
+  <li>Relaxes muscles</li>
+  <li>Anti-epileptic effects</li>
+  <li>Causes a sedative effect at higher doses</li>
 </ul>
 
-<p><strong>Dosering Richtlijnen:</strong></p>
-<p>De dosering van Clonazepam hangt af van de specifieke aandoening en de individuele behoeften van de patiënt:</p>
+<p><strong>Dosage Guidelines:</strong></p>
+<p>Clonazepam dosage depends on the specific condition and individual patient needs:</p>
 
-<p><strong>Voor Angststoornissen:</strong></p>
+<p><strong>For Anxiety Disorders:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Startdosis: 0,25-0,5 mg (2-3 keer per dag)</li>
-  <li>Onderhoudsdosis: 1-4 mg per dag</li>
+  <li>Starting dose: 0.25-0.5 mg (2-3 times daily)</li>
+  <li>Maintenance dose: 1-4 mg per day</li>
 </ul>
 
-<p><strong>Voor Epilepsie:</strong></p>
+<p><strong>For Epilepsy:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Volwassenen: 1,5-20 mg per dag (verdeeld over de dag)</li>
-  <li>Kinderen: 0,01-0,03 mg/kg per dag</li>
+  <li>Adults: 1.5-20 mg per day (divided doses)</li>
+  <li>Children: 0.01-0.03 mg/kg per day</li>
 </ul>
 
-<p><strong>Belangrijk:</strong> Stop niet abrupt—verminder de dosis geleidelijk onder medische supervisie.</p>
+<p><strong>Important:</strong> Do not stop abruptly—taper dose gradually under medical supervision.</p>
 
-<p><strong>Veelvoorkomende Bijwerkingen:</strong></p>
+<p><strong>Common Side Effects:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Slaperigheid</li>
-  <li>Duizeligheid</li>
-  <li>Wazig zicht</li>
-  <li>Geheugenproblemen</li>
+  <li>Drowsiness</li>
+  <li>Dizziness</li>
+  <li>Blurred vision</li>
+  <li>Memory problems</li>
 </ul>
 
-<p><strong>Ernstige Bijwerkingen (Raadpleeg een arts):</strong></p>
+<p><strong>Serious Side Effects (Consult a doctor):</strong></p>
 <ul class="list-disc list-inside">
-  <li>Extreme slaperigheid of verwarring</li>
-  <li>Ademhalingsproblemen</li>
-  <li>Stemmingswisselingen (depressie, agressie)</li>
-  <li>Afhankelijkheidsverschijnselen (hunkering, ontwenningsverschijnselen)</li>
+  <li>Extreme drowsiness or confusion</li>
+  <li>Breathing difficulties</li>
+  <li>Mood changes (depression, aggression)</li>
+  <li>Dependence symptoms (cravings, withdrawal)</li>
 </ul>
 
-<p><strong>Afhankelijkheid en Ontwenning:</strong></p>
-<p>Clonazepam kan verslavend zijn bij langdurig gebruik (langer dan 4 weken). De ontwenningsverschijnselen kunnen zijn:</p>
+<p><strong>Dependence and Withdrawal:</strong></p>
+<p>Clonazepam can be addictive with long-term use (longer than 4 weeks). Withdrawal symptoms may include:</p>
 <ul class="list-disc list-inside">
-  <li>Terugkeer van angst en slapeloosheid</li>
-  <li>Trillen en zweten</li>
-  <li>Seizuren (zeldzaam)</li>
+  <li>Return of anxiety and insomnia</li>
+  <li>Tremors and sweating</li>
+  <li>Seizures (rare)</li>
 </ul>
 
-<p><strong>Veilig Stoppen:</strong></p>
+<p><strong>Safe Discontinuation:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Langzame afbouw van de dosis onder medische supervisie</li>
-  <li>Vermijd alcohol en andere kalmerende middelen</li>
-  <li>Overweeg alternatieve behandelingen (Cognitieve Gedragstherapie, SSRI's)</li>
+  <li>Gradual dose reduction under medical supervision</li>
+  <li>Avoid alcohol and other sedatives</li>
+  <li>Consider alternative treatments (Cognitive Behavioral Therapy, SSRIs)</li>
 </ul>
 
-<p><strong>Waarschuwingen & Geneesmiddelinteracties:</strong></p>
+<p><strong>Warnings & Drug Interactions:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Vermijd bij leveraandoeningen</li>
-  <li>Individuen met een verslavingsgeschiedenis</li>
-  <li>Zwangere vrouwen of vrouwen die borstvoeding geven</li>
-  <li>Gebruik van opioïden of alcohol (risico op ademhalingsdepressie)</li>
+  <li>Avoid in liver disease</li>
+  <li>Individuals with a history of addiction</li>
+  <li>Pregnant or breastfeeding women</li>
+  <li>Use with opioids or alcohol (risk of respiratory depression)</li>
 </ul>
 
-<p><strong>Geneesmiddelinteracties:</strong></p>
+<p><strong>Drug Interactions:</strong></p>
 <ul class="list-disc list-inside">
-  <li>Opioïden → Verhoogde sedatie en risico op overdosis</li>
-  <li>Alcohol → Gevaarlijke depressie van het centrale zenuwstelsel</li>
-  <li>SSRI's/TCA's → Versterkte bijwerkingen</li>
+  <li>Opioids → Increased sedation and overdose risk</li>
+  <li>Alcohol → Dangerous CNS depression</li>
+  <li>SSRIs/TCAs → Enhanced side effects</li>
 </ul>
 
-<p><strong>Alternatieven voor Clonazepam:</strong></p>
+<p><strong>Alternatives to Clonazepam:</strong></p>
 <ul class="list-disc list-inside">
-  <li>SSRI's (bijv. Sertraline, Escitalopram) voor langdurige angstbehandeling</li>
-  <li>Buspiron voor angstverlichting zonder sedatie</li>
-  <li>Cognitieve Gedragstherapie (CGT) voor medicijnvrije angstbehandeling</li>
-  <li>Gabapentine/Pregabaline voor zenuwgerelateerde angst en epilepsie</li>
+  <li>SSRIs (e.g., Sertraline, Escitalopram) for long-term anxiety treatment</li>
+  <li>Buspirone for anxiety relief without sedation</li>
+  <li>Cognitive Behavioral Therapy (CBT) for drug-free anxiety treatment</li>
+  <li>Gabapentin/Pregabalin for nerve-related anxiety and epilepsy</li>
 </ul>
 
-<p><strong>Veelgestelde Vragen:</strong></p>
-<p><strong>1. Is Clonazepam een narcoticum?</strong> Nee, het is een gereguleerd middel vanwege het risico op misbruik.</p>
-<p><strong>2. Hoe lang blijft Clonazepam in het lichaam?</strong> Halfwaardetijd: 18-50 uur. Detecteerbaar in urine tot 30 dagen bij chronisch gebruik.</p>
-<p><strong>3. Kan Clonazepam geheugenverlies veroorzaken?</strong> Ja, langdurig gebruik kan geheugen en cognitie beïnvloeden.</p>
-<p><strong>4. Wat is het verschil tussen Clonazepam en Xanax?</strong> Clonazepam heeft een langere werkingsduur en wordt gebruikt voor chronische angst en epilepsie, terwijl Xanax sneller werkt bij paniekaanvallen.</p>
+<p><strong>Frequently Asked Questions:</strong></p>
+<p><strong>1. Is Clonazepam a narcotic?</strong> No, but it is a controlled substance due to abuse potential.</p>
+<p><strong>2. How long does Clonazepam stay in the body?</strong> Half-life: 18-50 hours. Detectable in urine for up to 30 days with chronic use.</p>
+<p><strong>3. Can Clonazepam cause memory loss?</strong> Yes, long-term use may affect memory and cognition.</p>
+<p><strong>4. What's the difference between Clonazepam and Xanax?</strong> Clonazepam has a longer duration and is used for chronic anxiety/epilepsy, while Xanax works faster for panic attacks.</p>
 
-<p><strong>Conclusie:</strong> Clonazepam is een effectief geneesmiddel tegen angst en epilepsie, maar het brengt risico's zoals afhankelijkheid met zich mee. Het moet onder strikte medische supervisie worden gebruikt en alternatieve behandelingen moeten worden overwogen voor langdurig gebruik.</p>
+<p><strong>Conclusion:</strong> Clonazepam is effective for anxiety and epilepsy but carries risks like dependence. It should be used under strict medical supervision, and alternatives should be considered for long-term use.</p>
 `,
   },
 ];

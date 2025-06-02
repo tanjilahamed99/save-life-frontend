@@ -98,7 +98,7 @@ export default function BlogPostPage() {
   if (!post) {
     return (
       <div className="container mx-auto px-4 py-12">
-        <h1 className="text-2xl font-bold">Blog post niet gevonden</h1>
+        <h1 className="text-2xl font-bold">Blog post not found</h1>
       </div>
     );
   }
@@ -149,7 +149,7 @@ export default function BlogPostPage() {
         />
 
         <div className="mt-12">
-          <h3 className="text-2xl font-bold mb-6">Gerelateerde artikelen</h3>
+          <h3 className="text-2xl font-bold mb-6">Related Articles</h3>
 
           {relatedArticle?.length > 0 ? (
             <div className="grid md:grid-cols-3 gap-6">
@@ -171,13 +171,13 @@ export default function BlogPostPage() {
                   <div className="p-4">
                     <h4 className="font-bold mb-2 hover:text-teal-600 transition-colors">
                       <Link href={`/blog/${item}`}>
-                        Gerelateerd artikel titel
+                        Related article title
                       </Link>
                     </h4>
 
                     <div className="flex items-center text-sm text-gray-500">
                       <Calendar size={14} className="mr-1" />
-                      <span>10 maart 2025</span>
+                      <span>10 March 2025</span>
                     </div>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ export default function BlogPostPage() {
             </div>
           ) : (
             <h2 className="text-gray-600">
-              Geen gerelateerde artikelen gevonden
+              No related articles found
             </h2>
           )}
         </div>
