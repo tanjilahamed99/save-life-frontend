@@ -36,12 +36,12 @@ export default function DashboardLayout({ children }) {
       icon: <Package size={20} className="mr-3" />,
       active: pathname === "/dashboard/orders",
     },
-    {
-      label: "Wallet",
-      href: "/dashboard/wallet",
-      icon: <EuroIcon size={20} className="mr-3" />,
-      active: pathname === "/dashboard/wallet",
-    },
+    // {
+    //   label: "Wallet",
+    //   href: "/dashboard/wallet",
+    //   icon: <EuroIcon size={20} className="mr-3" />,
+    //   active: pathname === "/dashboard/wallet",
+    // },
     {
       label: 'Support',
       href: '/dashboard/tickets',
