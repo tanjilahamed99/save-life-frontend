@@ -11,11 +11,12 @@ export const products = [
     categories: ["Medicijnen"],
     stock: 120,
     image: "/images/products/Diazepam10mg.webp",
-    shortDescription:
-      "<strong>1 doos Diazepam 10mg bevat 30 tabletten</strong><ul class='list-disc list-inside'><li>Helpt bij het sneller inslapen</li><li>Verlengt de slaapduur</li><li>Werkt binnen 1 uur, 8-12 uur werkzaam</li><li>Kalmerend, spierontspannend en angstverminderend</li></ul>",
-    description:
-      "<h2 class='text-[32px] font-medium mb-4 mt-2'>Wat is Diazepam 10mg?</h2><p>Diazepam 10mg behoort tot de <a href='/' class='text-[#7f54b3] hover:text-[#0e1703]'>benzodiazepinen</a> en wordt voorgeschreven bij onder andere angststoornissen, slaapproblemen, spierspasmen en epileptische aanvallen. Het werkt kalmerend op de hersenen en het zenuwstelsel.</p><h3 class='mt-4 mb-2'>Toepassingen van Diazepam:</h3><ol class='list-disc list-inside pl-6 mb-4'><li><strong>Angststoornissen:</strong> Vermindert spanning, onrust en paniek.</li><li><strong>Spierkrampen:</strong> Werkt spierverslappend bij spasmen.</li><li><strong>Sedatie:</strong> Als voorbereiding op medische ingrepen.</li><li><strong>Alcoholontwenning:</strong> Onderdrukt ontwenningsverschijnselen.</li><li><strong>Epilepsie:</strong> In specifieke gevallen gebruikt tegen aanvallen.</li></ol><h3 class='mt-4 mb-2'>Dosering en gebruik</h3><p>Een standaarddosis voor volwassenen is 10 mg. Afhankelijk van indicatie en individuele factoren kan dit worden aangepast door een arts. Diazepam kan met of zonder voedsel worden ingenomen.</p><h3 class='mt-4 mb-2'>Werkingsduur</h3><p>Diazepam werkt doorgaans binnen één uur en blijft 8 tot 12 uur werkzaam. Door de lange halfwaardetijd kan het middel langere tijd in het lichaam aanwezig blijven.</p><h3 class='mt-4 mb-2'>Bijwerkingen</h3><ul class='list-disc pl-6 mb-4'><li>Slaperigheid en vermoeidheid</li><li>Duizeligheid en spierzwakte</li><li>Verwardheid, vooral bij ouderen</li><li>Risico op afhankelijkheid bij langdurig gebruik</li></ul><h3 class='mt-4 mb-2'>Voorzorgsmaatregelen</h3><ul class='list-disc pl-6 mb-4'><li>Niet combineren met alcohol, opiaten of andere kalmerende middelen</li><li>Vermijd autorijden of het bedienen van machines</li><li>Gebruik onder strikt medisch toezicht, vooral bij voorgeschiedenis van middelenmisbruik</li><li>Afbouwen bij langdurig gebruik, nooit abrupt stoppen</li></ul><h2 class='text-[32px] font-medium mb-4 mt-2'>Diazepam 10mg online kopen</h2><p>Bij ons koopt u Diazepam 10mg eenvoudig, snel en veilig online. Wij bieden een gebruiksvriendelijke webshop, veilige iDEAL-betalingen en snelle verzending. Dankzij volumekorting is Diazepam 10mg ook voordelig bij grotere bestellingen.</p><p>Kies voor een betrouwbare online aanbieder met ervaring in medicatieverkoop. Bestel vandaag nog en ervaar het gemak van Diazepam 10mg kopen bij een betrouwbare partij.</p>",
-  },
+   shortDescription:
+    "<strong>1 box of Diazepam 10mg contains 30 tablets</strong><ul class='list-disc list-inside'><li>Helps you fall asleep faster</li><li>Extends sleep duration</li><li>Works within 1 hour, effective for 8–12 hours</li><li>Calming, muscle-relaxing, and anxiety-reducing</li></ul>",
+    
+  description:
+    "<h2 class='text-[32px] font-medium mb-4 mt-2'>What is Diazepam 10mg?</h2><p>Diazepam 10mg belongs to the class of <a href='/' class='text-[#7f54b3] hover:text-[#0e1703]'></a> and is prescribed for anxiety disorders, sleep problems, muscle spasms, and epileptic seizures. It has a calming effect on the brain and nervous system.</p><h3 class='mt-4 mb-2'>Uses of Diazepam:</h3><ol class='list-disc list-inside pl-6 mb-4'><li><strong>Anxiety disorders:</strong> Reduces tension, restlessness, and panic.</li><li><strong>Muscle cramps:</strong> Acts as a muscle relaxant during spasms.</li><li><strong>Sedation:</strong> Used prior to medical procedures.</li><li><strong>Alcohol withdrawal:</strong> Suppresses withdrawal symptoms.</li><li><strong>Epilepsy:</strong> Used in specific cases to control seizures.</li></ol><h3 class='mt-4 mb-2'>Dosage and Use</h3><p>The standard adult dose is 10 mg. This may be adjusted by a doctor depending on the condition and individual factors. Diazepam can be taken with or without food.</p><h3 class='mt-4 mb-2'>Duration of Action</h3><p>Diazepam typically starts working within one hour and remains effective for 8 to 12 hours. Due to its long half-life, it can stay in the body for an extended period.</p><h3 class='mt-4 mb-2'>Side Effects</h3><ul class='list-disc pl-6 mb-4'><li>Drowsiness and fatigue</li><li>Dizziness and muscle weakness</li><li>Confusion, especially in the elderly</li><li>Risk of dependence with long-term use</li></ul><h3 class='mt-4 mb-2'>Precautions</h3><ul class='list-disc pl-6 mb-4'><li>Do not combine with alcohol, opioids, or other sedatives</li><li>Avoid driving or operating machinery</li><li>Use only under strict medical supervision, especially with a history of substance abuse</li><li>Taper off gradually if used long-term; never stop abruptly</li></ul><h2 class='text-[32px] font-medium mb-4 mt-2'>Buying Diazepam 10mg Online</h2><p>You can easily, quickly, and securely buy Diazepam 10mg from us online. We offer a user-friendly webshop, secure iDEAL payments, and fast shipping. Thanks to volume discounts, Diazepam 10mg is also economical when ordering in larger quantities.</p><p>Choose a reliable online supplier with experience in selling medications. Order today and experience the convenience of buying Diazepam 10mg from a trusted source.</p>"
+},
   // added
   {
     id: 2,
@@ -27,39 +28,40 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     image: "/images/products/Zolpidem10mg.webp",
-    shortDescription:
-      "<strong>Een doosje Zolpidem 10mg bevat 30 tabletten</strong>\n<ul>\n  <li>Behandeling van slaapproblemen</li>\n  <li>Symptomen van angst</li>\n  <li>Meestal binnen 30 minuten na inname</li>\n  <li>Werkingstijd 6 - 8 uur</li>\n  <li>Standaarddosis voor volwassenen is 10 mg</li>\n</ul>",
-    description: `<h2 class="text-[32px] font-medium mb-4 mt-2">Zolpidem 10mg – Effectieve oplossing bij slapeloosheid</h2>
-	<p>Zolpidem 10mg, geproduceerd door Hemofarm, behoort tot de groep van zogenaamde 'Z-drugs'. Het is een krachtig slaapmiddel dat snel werkt en doorgaans wordt voorgeschreven bij kortdurende slaapproblemen. Ideaal voor mensen die moeite hebben met inslapen of te vroeg wakker worden.</p>
+   shortDescription:
+    "<strong>One box of Zolpidem 10mg contains 30 tablets</strong>\n<ul>\n  <li>Treatment of sleep disorders</li>\n  <li>Relief of anxiety symptoms</li>\n  <li>Usually works within 30 minutes</li>\n  <li>Effect duration 6 – 8 hours</li>\n  <li>Standard adult dose is 10 mg</li>\n</ul>",
+
+  description: `<h2 class="text-[32px] font-medium mb-4 mt-2">Zolpidem 10mg – Effective Solution for Insomnia</h2>
+	<p>Zolpidem 10mg, manufactured by Hemofarm, belongs to the group of so-called 'Z-drugs'. It is a powerful sleeping aid that acts quickly and is typically prescribed for short-term sleep problems. Ideal for individuals who have trouble falling asleep or who wake up too early.</p>
   
 	<div class="flex flex-col gap-[14.4px] my-4">
-	  <p><strong>Toepassing:</strong> Zolpidem is bedoeld voor het behandelen van slapeloosheid. Het helpt je sneller in slaap te vallen en zorgt voor een meer herstellende nachtrust.</p>
+	  <p><strong>Use:</strong> Zolpidem is intended for the treatment of insomnia. It helps you fall asleep faster and provides a more restorative night's rest.</p>
   
-	  <p><strong>Werking:</strong> De werking start doorgaans al binnen 30 minuten na inname en houdt 6 tot 8 uur aan. Zorg ervoor dat je voldoende tijd hebt om te slapen (minimaal 7 uur) voor je het inneemt.</p>
+	  <p><strong>Effect:</strong> The effect usually starts within 30 minutes after intake and lasts for 6 to 8 hours. Ensure you have enough time to sleep (at least 7 hours) before taking it.</p>
   
-	  <p><strong>Dosering:</strong> De aanbevolen dosis voor volwassenen is 10 mg, in te nemen vlak voor het slapengaan. Bij ouderen of mensen met een medische achtergrond kan een lagere dosis (5 mg) aangewezen zijn.</p>
+	  <p><strong>Dosage:</strong> The recommended dose for adults is 10 mg, to be taken just before bedtime. A lower dose (5 mg) may be advised for the elderly or those with medical conditions.</p>
   
-	  <p><strong>Gebruik:</strong> Neem Zolpidem in op een lege maag voor de beste werking. Dit geneesmiddel is bedoeld voor kortdurend gebruik van enkele dagen tot maximaal enkele weken.</p>
+	  <p><strong>Usage:</strong> Take Zolpidem on an empty stomach for optimal effect. This medication is intended for short-term use—from a few days up to a few weeks maximum.</p>
   
-	  <p><strong>Mogelijke bijwerkingen:</strong> Denk aan slaperigheid overdag, duizeligheid, hoofdpijn of misselijkheid. In zeldzame gevallen kunnen ook slaapwandelen of geheugenverlies voorkomen.</p>
+	  <p><strong>Possible Side Effects:</strong> These may include daytime drowsiness, dizziness, headache, or nausea. In rare cases, sleepwalking or memory loss can occur.</p>
 	</div>
   
-	<h3 class="text-xl font-semibold mt-6 mb-2">Belangrijke waarschuwingen</h3>
+	<h3 class="text-xl font-semibold mt-6 mb-2">Important Warnings</h3>
 	<ul class="list-disc pl-10 mb-4">
-	  <li>Combineer Zolpidem niet met alcohol of andere slaapverwekkende middelen.</li>
-	  <li>Vermijd autorijden of het bedienen van machines na inname.</li>
-	  <li>Gebruik dit middel uitsluitend zoals voorgeschreven door een arts.</li>
-	  <li>Raadpleeg je arts over mogelijke interacties met andere medicatie of supplementen.</li>
+	  <li>Do not combine Zolpidem with alcohol or other sedative medications.</li>
+	  <li>Avoid driving or operating machinery after taking it.</li>
+	  <li>Use only as prescribed by your doctor.</li>
+	  <li>Consult your physician about possible interactions with other medications or supplements.</li>
 	</ul>
   
-	<p>Overweeg je om Zolpidem online te kopen? Let dan goed op de betrouwbaarheid van de aanbieder. Wij bieden een veilige en eenvoudige bestelervaring, waarbij je altijd verzekerd bent van discretie, kwaliteit en snelle levering.</p>
+	<p>Considering buying Zolpidem online? Make sure to verify the reliability of the provider. We offer a secure and straightforward ordering experience, ensuring discretion, quality, and fast delivery at all times.</p>
   
-	<h2 class="text-[32px] font-medium mb-4 mt-2">Waarom Zolpidem 10mg bij ons kopen?</h2>
+	<h2 class="text-[32px] font-medium mb-4 mt-2">Why Buy Zolpidem 10mg from Us?</h2>
 	<div class="flex flex-col gap-[14.4px]">
-	  <p>Onze webshop is dé betrouwbare plek om Zolpidem 10mg te bestellen. We bieden directe betaling via iDEAL, snelle levering en aantrekkelijke staffelkortingen bij grotere afnames.</p>
-	  <p>Of je nu particulier bent of een groothandel zoekt, bij ons staat kwaliteit, gemak en veiligheid centraal. Dankzij onze gebruiksvriendelijke website heb je binnen enkele klikken jouw bestelling afgerond.</p>
-	  <p>Kies voor een betrouwbare en professionele service – kies voor ons wanneer je Zolpidem 10mg wilt kopen.</p>
-	</div>`,
+	  <p>Our webshop is the trusted place to order Zolpidem 10mg. We offer direct payment via iDEAL, fast delivery, and attractive tiered discounts for bulk purchases.</p>
+	  <p>Whether you're an individual or a wholesaler, we prioritize quality, convenience, and safety. Thanks to our user-friendly website, your order is completed in just a few clicks.</p>
+	  <p>Choose a reliable and professional service – choose us when you want to buy Zolpidem 10mg.</p>
+	</div>`
   },
   // added
   {
@@ -72,49 +74,59 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     image: "/images/products/Temazepam20mg.webp",
-    shortDescription:
-      "<strong>1 Doosje Temazepam 20mg bevat 30 tabletten</strong>\n<ul>\n  <li>Temazepam hoort bij de medicijn categorie benzodiazepinen</li>\n  <li>Werkt rustgevend en maakt suf</li>\n  <li>Verminderd angst en spanning en verslapt de spieren</li>\n  <li>Vaak gebruikt bij slapenloosheid</li>\n  <li>Rijd geen auto na inname temazepam</li>\n</ul>",
+   shortDescription: `
+  <strong>1 Box of Temazepam 20mg contains 30 tablets</strong>
+  <ul>
+    <li>Temazepam belongs to the medication category benzodiazepines</li>
+    <li>Has a calming and sedative effect</li>
+    <li>Reduces anxiety and tension and relaxes the muscles</li>
+    <li>Commonly used for insomnia</li>
+    <li>Do not drive after taking Temazepam</li>
+  </ul>
+`,
 
-    description: `<h2 class="text-[32px] font-medium mb-4 mt-2">Wat is Temazepam 20mg?</h2>
-	<p><strong>Temazepam 20mg</strong> is een krachtig slaapmiddel uit de groep <a href="/" class="text-[#7f54b3] hover:text-[#0e1703]">benzodiazepinen</a>. Het wordt vaak voorgeschreven bij slaapproblemen zoals moeite met inslapen of doorslapen. Dankzij de kalmerende werking helpt het je om sneller in slaap te vallen en langer door te slapen.</p>
-  
-	<h3 class="text-xl font-semibold mt-6 mb-2">Toepassingen van Temazepam</h3>
-	<ul class="list-disc pl-5">
-	  <li>Behandeling van slapeloosheid op korte termijn</li>
-	  <li>Ondersteuning bij angststoornissen of spanning</li>
-	  <li>Spierontspannend bij stress of rusteloosheid</li>
-	</ul>
-  
-	<h3 class="text-xl font-semibold mt-6 mb-2">Dosering en Gebruiksaanwijzing</h3>
-	<p>De gebruikelijke dosering voor volwassenen is 10 tot 20 mg, vlak voor het slapengaan. Ouderen of mensen met gezondheidsproblemen krijgen vaak een lagere dosis voorgeschreven. Neem het medicijn alleen in als je de mogelijkheid hebt om 7-8 uur aaneengesloten te slapen.</p>
-  
-	<h3 class="text-xl font-semibold mt-6 mb-2">Werkingsduur</h3>
-	<p>Temazepam werkt binnen 30 minuten na inname en houdt 6 tot 8 uur aan. Dit kan per persoon verschillen.</p>
-  
-	<h3 class="text-xl font-semibold mt-6 mb-2">Bijwerkingen</h3>
-	<ul class="list-disc pl-5">
-	  <li>Slaperigheid overdag</li>
-	  <li>Duizeligheid of hoofdpijn</li>
-	  <li>Vermoeidheid en verwardheid</li>
-	  <li>Geheugenproblemen (amnesie), vooral bij hogere doseringen</li>
-	  <li>Verhoogd valrisico bij ouderen</li>
-	</ul>
-  
-	<h3 class="text-xl font-semibold mt-6 mb-2">Belangrijke Waarschuwingen</h3>
-	<ul class="list-disc pl-5">
-	  <li>Vermijd alcohol tijdens gebruik</li>
-	  <li>Niet rijden of machines bedienen na inname</li>
-	  <li>Gebruik alleen onder toezicht van een arts</li>
-	  <li>Niet abrupt stoppen – afbouwen onder begeleiding</li>
-	  <li>Wees voorzichtig bij gebruik van andere medicijnen of supplementen</li>
-	</ul>
-  
-	<h2 class="text-[32px] font-medium mb-4 mt-8">Temazepam 20mg Online Bestellen</h2>
-	<p>Wil je <strong>Temazepam 20mg kopen</strong>? Bij ons bestel je eenvoudig en discreet online. Wij leveren snel en veilig, met betrouwbare betaalmethoden zoals iDEAL. Dankzij volumekorting is het ook interessant voor terugkerende klanten of grootverbruikers.</p>
-  
-	<p>Onze webshop staat bekend om comfort, veiligheid en klantgerichtheid. Of je nu voor het eerst bestelt of regelmatig terugkomt – jouw ervaring staat centraal.</p>
-  
-	<p><strong>Bestel vandaag nog Temazepam 20mg en geniet van een betere nachtrust.</strong></p>`,
+description: `
+  <h2 class="text-[32px] font-medium mb-4 mt-2">What is Temazepam 20mg?</h2>
+  <p><strong>Temazepam 20mg</strong> is a powerful sleeping aid from the group of <a href="/" class="text-[#7f54b3] hover:text-[#0e1703]">benzodiazepines</a>. It is often prescribed for sleep problems such as difficulty falling or staying asleep. Thanks to its calming effect, it helps you fall asleep faster and stay asleep longer.</p>
+
+  <h3 class="text-xl font-semibold mt-6 mb-2">Applications of Temazepam</h3>
+  <ul class="list-disc pl-5">
+    <li>Short-term treatment of insomnia</li>
+    <li>Support for anxiety disorders or tension</li>
+    <li>Muscle relaxation in case of stress or restlessness</li>
+  </ul>
+
+  <h3 class="text-xl font-semibold mt-6 mb-2">Dosage and Instructions</h3>
+  <p>The usual adult dose is 10 to 20 mg right before bedtime. Elderly people or those with health issues are often prescribed a lower dose. Only take the medication if you are able to sleep for 7–8 uninterrupted hours.</p>
+
+  <h3 class="text-xl font-semibold mt-6 mb-2">Duration of Effect</h3>
+  <p>Temazepam starts working within 30 minutes after intake and lasts for 6 to 8 hours. This may vary from person to person.</p>
+
+  <h3 class="text-xl font-semibold mt-6 mb-2">Side Effects</h3>
+  <ul class="list-disc pl-5">
+    <li>Daytime drowsiness</li>
+    <li>Dizziness or headache</li>
+    <li>Fatigue and confusion</li>
+    <li>Memory problems (amnesia), especially at higher doses</li>
+    <li>Increased risk of falls in the elderly</li>
+  </ul>
+
+  <h3 class="text-xl font-semibold mt-6 mb-2">Important Warnings</h3>
+  <ul class="list-disc pl-5">
+    <li>Avoid alcohol during use</li>
+    <li>Do not drive or operate machinery after taking</li>
+    <li>Use only under supervision of a doctor</li>
+    <li>Do not stop abruptly – taper off under guidance</li>
+    <li>Be cautious when using other medications or supplements</li>
+  </ul>
+
+  <h2 class="text-[32px] font-medium mb-4 mt-8">Order Temazepam 20mg Online</h2>
+  <p>Want to <strong>buy Temazepam 20mg</strong>? You can easily and discreetly order from us online. We deliver quickly and securely, with reliable payment methods such as iDEAL. Thanks to volume discounts, it’s also attractive for returning customers or bulk buyers.</p>
+
+  <p>Our webshop is known for convenience, safety, and customer focus. Whether it's your first time ordering or you're a returning customer – your experience is our priority.</p>
+
+  <p><strong>Order Temazepam 20mg today and enjoy a better night's sleep.</strong></p>
+`
   },
   // added
   {
@@ -126,49 +138,58 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 120,
-    shortDescription:
-      "<strong>1 Doos Lorazepam 2.5 mg bevat 30 tabletten</strong>\n<ul>\n  <li>Behandeling van angststoornissen.</li>\n  <li>Ernstige angstsymptomen.</li>\n  <li>Als premedicatie voor tandheelkundige ingrepen.</li>\n  <li>Begint meestal binnen 20 tot 30 minuten</li>\n</ul>",
-    description: `
-	  <h2 class="text-[32px] font-medium mb-4 mt-2">Lorazepam 2,5 mg – 30 tabletten</h2>
-	  <p class="mb-[14.4px]">Lorazepam behoort tot de benzodiazepinen en is effectief bij de behandeling van angststoornissen, ernstige stress en slapeloosheid. Het werkt rustgevend, spierontspannend en vermindert spanning, door invloed op neurotransmitters in de hersenen.</p>
-  
-	  <h3 class="mt-4 mb-2 font-semibold text-lg">Toepassingen</h3>
-	  <ul class="list-decimal pl-10">
-		<li>Behandeling van (ernstige) angststoornissen</li>
-		<li>Premedicatie bij operaties of tandheelkundige behandelingen</li>
-		<li>Verlichting bij slapeloosheid door stress</li>
-		<li>Ondersteuning bij alcoholontwenning en epileptische aanvallen</li>
-	  </ul>
-  
-	  <h3 class="mt-4 mb-2 font-semibold text-lg">Werkingsduur</h3>
-	  <p>Lorazepam begint doorgaans binnen 20-30 minuten te werken en blijft gemiddeld 6 tot 8 uur actief, afhankelijk van persoonlijke factoren zoals leeftijd en stofwisseling.</p>
-  
-	  <h3 class="mt-4 mb-2 font-semibold text-lg">Aanbevolen dosering</h3>
-	  <p>Voor angststoornissen: 1 tot 2,5 mg, 2 à 3 keer per dag. Volg altijd het voorschrift van de arts. Langdurig gebruik kan leiden tot gewenning en afhankelijkheid.</p>
-  
-	  <h3 class="mt-4 mb-2 font-semibold text-lg">Gebruik</h3>
-	  <p>Neem Lorazepam consequent, met of zonder voedsel. Stop nooit abrupt met het gebruik zonder medisch advies.</p>
-  
-	  <h3 class="mt-4 mb-2 font-semibold text-lg">Bijwerkingen</h3>
-	  <p>Veelvoorkomende bijwerkingen zijn slaperigheid, duizeligheid, vermoeidheid en verwardheid. Ouderen lopen een verhoogd risico op vallen.</p>
-  
-	  <h3 class="mt-4 mb-2 font-semibold text-lg">Belangrijke voorzorgsmaatregelen</h3>
-	  <ul class="list-disc pl-10">
-		<li>Kan verslavend zijn bij langdurig gebruik</li>
-		<li>Vermijd alcohol en andere kalmerende middelen</li>
-		<li>Niet autorijden of machines bedienen na inname</li>
-		<li>Altijd geleidelijk afbouwen onder begeleiding van een arts</li>
-	  </ul>
-  
-	  <h2 class="text-[32px] font-medium mb-4 mt-6">Lorazepam 2,5 mg online bestellen</h2>
-	  <p>Wilt u Lorazepam 2,5 mg veilig online kopen? Bij ons bent u aan het juiste adres voor een discrete, snelle en betrouwbare levering van benzodiazepinen. Dankzij onze eenvoudige bestelprocedure en veilige betaalmethode via iDEAL bestelt u Lorazepam gemakkelijk vanuit huis.</p>
-  
-	  <p>Profiteer van volumekortingen bij grotere bestellingen – ideaal voor persoonlijke of zakelijke doeleinden. Onze klanten waarderen de gebruiksvriendelijkheid, discretie en kwaliteit van onze service.</p>
-  
-	  <p>Naast Lorazepam bieden we ook andere slaap- en kalmeringsmiddelen aan, waaronder <strong>Temazepam</strong>. Vraag gerust naar ons volledige assortiment.</p>
-  
-	  <p>Kies voor gemak, betrouwbaarheid en snelle levering bij het kopen van Lorazepam 2,5 mg online.</p>
-	`,
+   shortDescription: `
+  <strong>1 Box of Lorazepam 2.5 mg contains 30 tablets</strong>
+  <ul>
+    <li>Treatment of anxiety disorders.</li>
+    <li>Severe anxiety symptoms.</li>
+    <li>As premedication for dental procedures.</li>
+    <li>Usually starts working within 20 to 30 minutes.</li>
+  </ul>
+`,
+
+description: `
+  <h2 class="text-[32px] font-medium mb-4 mt-2">Lorazepam 2.5 mg – 30 tablets</h2>
+  <p class="mb-[14.4px]">Lorazepam belongs to the benzodiazepines and is effective in treating anxiety disorders, severe stress, and insomnia. It has a calming, muscle-relaxing effect and reduces tension by influencing neurotransmitters in the brain.</p>
+
+  <h3 class="mt-4 mb-2 font-semibold text-lg">Uses</h3>
+  <ul class="list-decimal pl-10">
+    <li>Treatment of (severe) anxiety disorders</li>
+    <li>Premedication for surgeries or dental treatments</li>
+    <li>Relief of insomnia caused by stress</li>
+    <li>Support during alcohol withdrawal and epileptic seizures</li>
+  </ul>
+
+  <h3 class="mt-4 mb-2 font-semibold text-lg">Duration of Effect</h3>
+  <p>Lorazepam usually starts working within 20-30 minutes and remains active for an average of 6 to 8 hours, depending on personal factors such as age and metabolism.</p>
+
+  <h3 class="mt-4 mb-2 font-semibold text-lg">Recommended Dosage</h3>
+  <p>For anxiety disorders: 1 to 2.5 mg, 2 to 3 times per day. Always follow your doctor's prescription. Long-term use may lead to tolerance and dependence.</p>
+
+  <h3 class="mt-4 mb-2 font-semibold text-lg">Usage</h3>
+  <p>Take Lorazepam consistently, with or without food. Never stop using it abruptly without medical advice.</p>
+
+  <h3 class="mt-4 mb-2 font-semibold text-lg">Side Effects</h3>
+  <p>Common side effects include drowsiness, dizziness, fatigue, and confusion. Elderly people have an increased risk of falls.</p>
+
+  <h3 class="mt-4 mb-2 font-semibold text-lg">Important Precautions</h3>
+  <ul class="list-disc pl-10">
+    <li>Can be addictive when used long-term</li>
+    <li>Avoid alcohol and other sedatives</li>
+    <li>Do not drive or operate machinery after taking</li>
+    <li>Always taper off gradually under medical supervision</li>
+  </ul>
+
+  <h2 class="text-[32px] font-medium mb-4 mt-6">Order Lorazepam 2.5 mg Online</h2>
+  <p>Want to buy Lorazepam 2.5 mg safely online? You’ve come to the right place for discreet, fast, and reliable delivery of benzodiazepines. Thanks to our easy ordering process and secure payment method via iDEAL, you can order Lorazepam conveniently from home.</p>
+
+  <p>Benefit from volume discounts on larger orders – ideal for personal or business use. Our customers appreciate the ease of use, discretion, and quality of our service.</p>
+
+  <p>Besides Lorazepam, we also offer other sleep and calming medications, including <strong>Temazepam</strong>. Feel free to ask about our full range.</p>
+
+  <p>Choose convenience, reliability, and fast delivery when buying Lorazepam 2.5 mg online.</p>
+`
+,
     image: "/images/products/Lorazepam2mg.webp",
     updatedAt: new Date(),
   },
@@ -182,29 +203,38 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 120,
-    shortDescription:
-      "<strong>1 Doosje Alprazolam 1mg bevat 30 tabletten</strong>\n<ul>\n  <li>Effectief in het verminderen van angst</li>\n  <li>Behandeling van paniekaanvallen,</li>\n  <li>Werkt binnen een halfuur tot een uur en houd enkele uren aan</li>\n  <li>Bijwerkingen omvatten slaperigheid, vermoeidheid</li>\n</ul>",
-    description: `
-	  <h2 class="text-[32px] font-medium mb-4 mt-2"> Alprazolam 1mg - 30 Tabletten</h2>
-	  <p class="mb-[14.4px]">, met de werkzame stof alprazolam, is een krachtig benzodiazepine dat veel wordt voorgeschreven bij <strong>angststoornissen</strong> en <strong>paniekaanvallen</strong>. De dosering van 1 mg is ideaal voor gecontroleerde verlichting van symptomen, onder begeleiding van een arts.</p>
-  
-	  <h3 class="text-xl font-semibold mt-4">Toepassingen:</h3>
-	  <ul class="list-disc pl-6 mt-2">
-		<li><strong>Angststoornissen:</strong> Vermindert nervositeit, spanning en angstgevoelens.</li>
-		<li><strong>Paniekaanvallen:</strong> Ondersteunt behandeling van paniekstoornissen, met of zonder agorafobie.</li>
-	  </ul>
-  
-	  <h3 class="text-xl font-semibold mt-4">Dosering en Gebruiksaanwijzing:</h3>
-	  <p>Alprazolam werkt snel, vaak binnen 30 tot 60 minuten, met effecten die enkele uren aanhouden. De aanbevolen dosering varieert per persoon en wordt aangepast op basis van klachten en medische achtergrond. Volg altijd het advies van een arts. Neem de tabletten met of zonder voedsel en bouw de dosering geleidelijk af om ontwenningsverschijnselen te voorkomen.</p>
-  
-	  <h3 class="text-xl font-semibold mt-4">Bijwerkingen:</h3>
-	  <p>Mogelijke bijwerkingen zijn onder andere slaperigheid, duizeligheid, vermoeidheid, geheugenproblemen en in sommige gevallen verwarring. Langdurig gebruik kan leiden tot gewenning of afhankelijkheid.</p>
-  
-	  <h2 class="text-[32px] font-medium mb-4 mt-6">Waarom  Alprazolam 1mg bij ons kopen?</h2>
-	  <p>Op zoek naar een betrouwbare plek om <strong> Alprazolam 1mg te kopen</strong>? Wij bieden een gebruiksvriendelijke webshop met snelle levering, veilige betaalopties via iDEAL, en scherpe prijzen inclusief volumekorting. Of je nu particulier bent of zakelijk inkoopt, wij garanderen een professionele service en discreet verzonden pakketjes.</p>
-  
-	  <p>Bij ons staat veiligheid, discretie en klanttevredenheid centraal. Profiteer van kortingen bij grotere afnames en bestel eenvoudig en veilig online zonder recept. Onze klantenservice staat klaar om je te ondersteunen bij vragen of bestellingen.</p>
-	`,
+   shortDescription: `
+  <strong>1 Box of Alprazolam 1 mg contains 30 tablets</strong>
+  <ul>
+    <li>Effective in reducing anxiety</li>
+    <li>Treatment of panic attacks</li>
+    <li>Works within half an hour to an hour and lasts for several hours</li>
+    <li>Side effects include drowsiness and fatigue</li>
+  </ul>
+`,
+
+description: `
+  <h2 class="text-[32px] font-medium mb-4 mt-2">Alprazolam 1 mg – 30 Tablets</h2>
+  <p class="mb-[14.4px]">Containing the active ingredient alprazolam, this is a potent benzodiazepine commonly prescribed for <strong>anxiety disorders</strong> and <strong>panic attacks</strong>. The 1 mg dosage is ideal for controlled symptom relief under medical supervision.</p>
+
+  <h3 class="text-xl font-semibold mt-4">Uses:</h3>
+  <ul class="list-disc pl-6 mt-2">
+    <li><strong>Anxiety disorders:</strong> Reduces nervousness, tension, and feelings of anxiety.</li>
+    <li><strong>Panic attacks:</strong> Supports treatment of panic disorders, with or without agoraphobia.</li>
+  </ul>
+
+  <h3 class="text-xl font-semibold mt-4">Dosage and Instructions:</h3>
+  <p>Alprazolam works quickly, often within 30 to 60 minutes, with effects lasting several hours. The recommended dose varies per person and is adjusted based on symptoms and medical history. Always follow your doctor’s advice. Take tablets with or without food and taper the dosage gradually to avoid withdrawal symptoms.</p>
+
+  <h3 class="text-xl font-semibold mt-4">Side Effects:</h3>
+  <p>Possible side effects include drowsiness, dizziness, fatigue, memory problems, and sometimes confusion. Long-term use may lead to tolerance or dependence.</p>
+
+  <h2 class="text-[32px] font-medium mb-4 mt-6">Why Buy Alprazolam 1 mg From Us?</h2>
+  <p>Looking for a reliable place to <strong>buy Alprazolam 1 mg</strong>? We offer a user-friendly webshop with fast delivery, secure payment options via iDEAL, and competitive prices including volume discounts. Whether you’re buying for personal or business use, we guarantee professional service and discreet packaging.</p>
+
+  <p>Safety, discretion, and customer satisfaction are our priorities. Benefit from discounts on larger orders and order easily and securely online without a prescription. Our customer service is ready to assist with any questions or orders.</p>
+`
+,
     image: "/images/products/Alprazolam1mg.webp",
     updatedAt: new Date(),
   },
@@ -218,11 +248,43 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen", "Slaappillen", "Benzodiazepinen"],
     stock: 28,
-    shortDescription:
-      "<strong>1 Doosje Bromazepam 6mg bevat 20 tabletten</strong>\n<ul>\n  <li>Bij verlichting van acute angst</li>\n  <li>Symptomen van angst</li>\n  <li>Werkt binnen een halfuur tot een uur en houd enkele uren aan</li>\n  <li>Voor de kortdurende behandeling</li>\n</ul>",
-    description:
-      "<p>Bromazepam 6 mg is een therapeutisch geneesmiddel uit de familie van <strong>benzodiazepinen</strong>. Het wordt voornamelijk voorgeschreven voor de behandeling van angststoornissen en voor de kortdurende verlichting van symptomen van acute angst. Bromazepam werkt door de werking van GABA in de hersenen te versterken, wat resulteert in een kalmerend effect.</p><h3>Toepassingen</h3><ul class='list-decimal mt-4 pl-10'><li><strong>Behandeling van angststoornissen:</strong> Bromazepam helpt bij het verminderen van angst- en spanningssymptomen bij diverse angststoornissen.</li><li><strong>Verlichting van acute angst:</strong> Het medicijn is effectief voor de kortdurende behandeling van acute angstsymptomen.</li></ul><div class='flex flex-col gap-[14.4px] my-4'><p><strong>Werkingsduur:</strong> Bromazepam begint meestal binnen 30-60 minuten na inname te werken. De effecten houden gewoonlijk enkele uren aan, afhankelijk van individuele factoren.</p><p><strong>Dosering:</strong> De standaarddosering voor volwassenen is 6 mg. De exacte dosering wordt bepaald door de ernst van de symptomen, leeftijd, en gezondheidsconditie. Volg altijd het advies van uw arts.</p><p><strong>Gebruiksaanwijzing:</strong> Neem Bromazepam exact zoals voorgeschreven. Het kan met of zonder voedsel worden ingenomen. Gebruik het medicijn niet langer dan voorgeschreven vanwege het risico op afhankelijkheid.</p><p><strong>Bijwerkingen:</strong> Mogelijke bijwerkingen zijn onder andere slaperigheid, duizeligheid, vermoeidheid, verminderde alertheid en spierslapte. Langdurig gebruik kan leiden tot afhankelijkheid en tolerantie.</p></div><h3>Voorzorgsmaatregelen</h3><ul class='list-disc mt-4 pl-10'><li>Vermijd alcohol en andere kalmerende middelen tijdens gebruik.</li><li>Wees voorzichtig bij activiteiten die alertheid vereisen, zoals autorijden.</li><li>Personen met een geschiedenis van middelenmisbruik dienen extra voorzichtig te zijn.</li><li>Stop niet plotseling met het gebruik vanwege risico op ontwenningsverschijnselen.</li></ul><p>Voor optimale resultaten en veiligheid is het essentieel om Bromazepam alleen te gebruiken onder strikt medisch toezicht en de voorgeschreven richtlijnen nauwkeurig te volgen.</p>",
-    image: "/images/products/Bromazepam6mg.webp",
+   shortDescription: `
+  <strong>1 Box of Bromazepam 6 mg contains 20 tablets</strong>
+  <ul>
+    <li>For relief of acute anxiety</li>
+    <li>Symptoms of anxiety</li>
+    <li>Works within half an hour to an hour and lasts for several hours</li>
+    <li>For short-term treatment</li>
+  </ul>
+`,
+
+description: `
+  <p>Bromazepam 6 mg is a therapeutic medication from the family of <strong>benzodiazepines</strong>. It is mainly prescribed for the treatment of anxiety disorders and for short-term relief of acute anxiety symptoms. Bromazepam works by enhancing the effect of GABA in the brain, resulting in a calming effect.</p>
+
+  <h3>Uses</h3>
+  <ul class='list-decimal mt-4 pl-10'>
+    <li><strong>Treatment of anxiety disorders:</strong> Bromazepam helps reduce anxiety and tension symptoms in various anxiety disorders.</li>
+    <li><strong>Relief of acute anxiety:</strong> The medication is effective for short-term treatment of acute anxiety symptoms.</li>
+  </ul>
+
+  <div class='flex flex-col gap-[14.4px] my-4'>
+    <p><strong>Duration of action:</strong> Bromazepam usually starts working within 30-60 minutes after intake. Effects typically last several hours depending on individual factors.</p>
+    <p><strong>Dosage:</strong> The standard adult dose is 6 mg. The exact dosage is determined by symptom severity, age, and health condition. Always follow your doctor’s advice.</p>
+    <p><strong>Instructions for use:</strong> Take Bromazepam exactly as prescribed. It can be taken with or without food. Do not use longer than prescribed due to the risk of dependence.</p>
+    <p><strong>Side effects:</strong> Possible side effects include drowsiness, dizziness, fatigue, reduced alertness, and muscle weakness. Long-term use may lead to dependence and tolerance.</p>
+  </div>
+
+  <h3>Precautions</h3>
+  <ul class='list-disc mt-4 pl-10'>
+    <li>Avoid alcohol and other sedatives during use.</li>
+    <li>Be cautious with activities requiring alertness, such as driving.</li>
+    <li>People with a history of substance abuse should exercise extra caution.</li>
+    <li>Do not stop use abruptly due to risk of withdrawal symptoms.</li>
+  </ul>
+
+  <p>For optimal results and safety, it is essential to use Bromazepam only under strict medical supervision and to follow prescribed guidelines carefully.</p>
+`
+, image: "/images/products/Bromazepam6mg.webp",
   },
   {
     id: 7,
@@ -233,11 +295,43 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 35,
-    shortDescription:
-      "<strong>1 Doosje Rivotril Clonazepam 2mg bevat 30 tabletten</strong>\n<ul>\n  <li>Werkt tegen paniekaanvallen, onrust, algemene angst</li>\n  <li>Heeft een relatief lange halfwaardetijd , blijft lang aanhouden</li>\n  <li>origineel vervaardigd door Galenika.</li>\n</ul>",
-    description:
-      "<h2 class='text-[32px] font-medium mb-4 mt-2'>Clonazepam Rivotril 2mg - 30 tabletten</h2><p>Clonazepam, verkocht onder de merknaam Rivotril, is een effectief geneesmiddel uit de benzodiazepinenfamilie. Het wordt primair ingezet voor de behandeling van epileptische aanvallen en het beheersen van paniekstoornissen. Met een dosering van 2 mg biedt het een krachtige therapeutische werking.</p><h3>Therapeutische toepassingen</h3><ul class='list-decimal mt-4 pl-10'><li><strong>Epilepsiebehandeling:</strong> Clonazepam is bijzonder effectief bij het beheersen van specifieke vormen van epilepsie, waaronder absence- en myoclonische aanvallen.</li><li><strong>Behandeling van paniekstoornissen:</strong> Het medicijn vermindert aanzienlijk de frequentie en intensiteit van paniekaanvallen, waardoor de levenskwaliteit verbetert.</li></ul><div class='flex flex-col gap-[14.4px] my-4'><p><strong>Werkingsduur:</strong> Clonazepam heeft een opmerkelijk lange halfwaardetijd, waardoor de therapeutische effecten langdurig aanhouden - vaak tot 24 uur, afhankelijk van individuele factoren.</p><p><strong>Aanbevolen dosering:</strong> De dosering van 2 mg wordt beschouwd als een therapeutisch effectieve dosis. Behandelingen beginnen doorgaans met een lagere dosis die geleidelijk wordt verhoogd tot de optimale effectiviteit is bereikt.</p><p><strong>Gebruiksaanwijzing:</strong> Neem Clonazepam precies volgens het voorschrift van uw arts. Het kan met of zonder voedsel worden ingenomen. Vanwege het potentieel voor afhankelijkheid wordt gebruik voor beperkte tijd aanbevolen.</p><p><strong>Mogelijke bijwerkingen:</strong> Bijwerkingen kunnen onder andere slaperigheid, duizeligheid, verminderde coördinatie en vermoeidheid omvatten. Bij langdurig gebruik bestaat risico op tolerantieontwikkeling.</p></div><h3>Belangrijke voorzorgsmaatregelen</h3><ul class='list-disc mt-4 pl-10'><li>Informeer uw arts over alle medicijnen die u gebruikt vanwege mogelijke interacties.</li><li>Vermijd consumptie van alcohol en andere kalmerende middelen tijdens de behandeling.</li><li>Wees uiterst voorzichtig bij activiteiten die concentratie vereisen, zoals autorijden.</li><li>Personen met een voorgeschiedenis van middelenmisbruik dienen extra voorzichtig te zijn.</li></ul><p>Voor maximale therapeutische voordelen en minimale risico's is het cruciaal om Clonazepam uitsluitend onder nauwgezet medisch toezicht te gebruiken en alle voorgeschreven richtlijnen strikt op te volgen.</p>",
-    image: "/images/products/Clonazepam2mg.webp",
+   shortDescription: `
+  <strong>1 Box of Rivotril Clonazepam 2 mg contains 30 tablets</strong>
+  <ul>
+    <li>Effective against panic attacks, restlessness, general anxiety</li>
+    <li>Has a relatively long half-life, effects last for a long time</li>
+    <li>Originally manufactured by Galenika.</li>
+  </ul>
+`,
+
+description: `
+  <h2 class='text-[32px] font-medium mb-4 mt-2'>Clonazepam Rivotril 2 mg - 30 tablets</h2>
+  <p>Clonazepam, sold under the brand name Rivotril, is an effective medication from the benzodiazepine family. It is primarily used to treat epileptic seizures and manage panic disorders. With a dosage of 2 mg, it provides a powerful therapeutic effect.</p>
+
+  <h3>Therapeutic Uses</h3>
+  <ul class='list-decimal mt-4 pl-10'>
+    <li><strong>Epilepsy treatment:</strong> Clonazepam is particularly effective in controlling specific types of epilepsy, including absence and myoclonic seizures.</li>
+    <li><strong>Treatment of panic disorders:</strong> The medication significantly reduces the frequency and intensity of panic attacks, improving quality of life.</li>
+  </ul>
+
+  <div class='flex flex-col gap-[14.4px] my-4'>
+    <p><strong>Duration of action:</strong> Clonazepam has a notably long half-life, resulting in therapeutic effects that last up to 24 hours, depending on individual factors.</p>
+    <p><strong>Recommended dosage:</strong> The 2 mg dose is considered therapeutically effective. Treatment usually starts with a lower dose that is gradually increased until optimal effectiveness is reached.</p>
+    <p><strong>Instructions for use:</strong> Take Clonazepam exactly as prescribed by your doctor. It can be taken with or without food. Due to the potential for dependence, use is recommended for a limited time.</p>
+    <p><strong>Possible side effects:</strong> Side effects may include drowsiness, dizziness, decreased coordination, and fatigue. Long-term use carries a risk of tolerance development.</p>
+  </div>
+
+  <h3>Important Precautions</h3>
+  <ul class='list-disc mt-4 pl-10'>
+    <li>Inform your doctor about all medications you are taking due to possible interactions.</li>
+    <li>Avoid alcohol and other sedatives during treatment.</li>
+    <li>Exercise extreme caution when performing activities that require concentration, such as driving.</li>
+    <li>People with a history of substance abuse should be especially careful.</li>
+  </ul>
+
+  <p>For maximum therapeutic benefit and minimal risks, it is crucial to use Clonazepam only under strict medical supervision and to follow all prescribed guidelines carefully.</p>
+`
+,image: "/images/products/Clonazepam2mg.webp",
   },
   {
     id: 8,
@@ -248,11 +342,53 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 120,
-    shortDescription:
-      "<strong>1 Doosje Pregabaline 300 mg bevat 30 capsules</strong>\n<ul>\n  <li>Behandeling bij Neuropathische pijn</li>\n  <li>Bepaalde soorten epileptische aanvallen</li>\n  <li>Behandeling van gegeneraliseerde angststoornissen</li>\n  <li>Op regelmatige tijdstippen in te nemen</li>\n  <li>Bijwerkingen :slaperigheid, duizeligheid, droge mond</li>\n</ul>",
-    description:
-      "<h2 class='text-[32px] font-medium mb-3.5'>Pregabaline 300 mg – Toepassing en Informatie</h2><p>Pregabaline 300 mg behoort tot de groep van anti-epileptica en wordt ingezet bij:</p><ul class='list-disc pl-10 my-3.5'><li>Behandeling van neuropathische pijn veroorzaakt door zenuwbeschadiging</li><li>Aanvullende therapie bij bepaalde vormen van epilepsie</li><li>Behandeling van gegeneraliseerde angststoornis (GAS)</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Werkingsmechanisme</h3><p>Pregabaline beïnvloedt calciumkanalen in het centrale zenuwstelsel, waardoor het abnormale zenuwactiviteit vermindert. Dit helpt bij pijnverlichting, angstvermindering en het voorkomen van aanvallen.</p><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Dosering</h3><p>Gebruikelijk wordt gestart met 150–300 mg per dag, verdeeld over 1 tot 2 innames. De dosering kan aangepast worden door de arts op basis van respons en bijwerkingen.</p><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Gebruiksaanwijzing</h3><ul class='list-disc pl-10 my-3.5'><li>Innemen met of zonder voedsel, dagelijks op vaste tijdstippen</li><li>Niet abrupt stoppen; afbouwen onder toezicht van arts</li><li>Voorzichtigheid geboden bij voorgeschiedenis van middelenmisbruik</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Bijwerkingen</h3><ul class='list-disc pl-10 my-3.5'><li>Vaak: slaperigheid, duizeligheid, droge mond, wazig zien</li><li>Soms: gewichtstoename, verminderde concentratie, oedeem</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Waarschuwingen en Interacties</h3><ul class='list-disc pl-10 my-3.5'><li>Kan verslavingsrisico dragen</li><li>Interactie mogelijk met alcohol en kalmerende medicatie</li><li>Niet aanbevolen bij ernstige nierfunctiestoornissen zonder medisch toezicht</li></ul>",
-    image: "/images/products/Pregabalin300mg.webp",
+   shortDescription: `
+  <strong>1 Box of Pregabalin 300 mg contains 30 capsules</strong>
+  <ul>
+    <li>Treatment for neuropathic pain</li>
+    <li>Certain types of epileptic seizures</li>
+    <li>Treatment of generalized anxiety disorder</li>
+    <li>To be taken at regular times</li>
+    <li>Side effects: drowsiness, dizziness, dry mouth</li>
+  </ul>
+`,
+
+description: `
+  <h2 class='text-[32px] font-medium mb-3.5'>Pregabalin 300 mg – Uses and Information</h2>
+  <p>Pregabalin 300 mg belongs to the class of antiepileptics and is used for:</p>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Treatment of neuropathic pain caused by nerve damage</li>
+    <li>Adjunct therapy for certain types of epilepsy</li>
+    <li>Treatment of generalized anxiety disorder (GAD)</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Mechanism of Action</h3>
+  <p>Pregabalin affects calcium channels in the central nervous system, reducing abnormal nerve activity. This helps relieve pain, reduce anxiety, and prevent seizures.</p>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Dosage</h3>
+  <p>The usual starting dose is 150–300 mg per day, divided into 1 to 2 doses. The dose can be adjusted by the doctor based on response and side effects.</p>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Instructions for Use</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Take with or without food, daily at fixed times</li>
+    <li>Do not stop abruptly; taper off under medical supervision</li>
+    <li>Use caution if there is a history of substance abuse</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Side Effects</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Common: drowsiness, dizziness, dry mouth, blurred vision</li>
+    <li>Sometimes: weight gain, decreased concentration, edema</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Warnings and Interactions</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>May carry risk of dependence</li>
+    <li>Possible interactions with alcohol and sedative medications</li>
+    <li>Not recommended for severe kidney impairment without medical supervision</li>
+  </ul>
+`
+,image: "/images/products/Pregabalin300mg.webp",
   },
   {
     id: 9,
@@ -263,11 +399,52 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 90,
-    shortDescription:
-      "<strong>1 Doosjes Tramadol 200 mg bevat 30 tabletten</strong>\n<ul>\n  <li>Gebruikt voor het verlichten van zware pijn</li>\n  <li>Valt onder Opioïden</li>\n  <li>Zeer sterke pijnstillers</li>\n  <li>(extended-release) tablet</li>\n  <li>Langwerkende Pijnstiller</li>\n</ul>",
-    description:
-      "<h2 class='text-[32px] font-medium mb-3.5'>Tramadol 200 mg – Retardtabletten voor Pijnbestrijding</h2><p>Tramadol is een opioïde analgeticum dat wordt gebruikt voor:</p><ul class='list-disc pl-10 my-3.5'><li>Langdurige verlichting van matige tot ernstige pijn</li><li>Behandeling van chronische aandoeningen zoals artrose of zenuwpijn</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Werkingsmechanisme</h3><p>Tramadol beïnvloedt de overdracht van pijnsignalen via het ruggenmerg en de hersenen. Het werkt als een centrale pijnstiller met een vertraagde afgifte voor langdurige werking.</p><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Dosering</h3><p>De gebruikelijke dosering is 200 mg per 24 uur. De dosering dient individueel te worden bepaald door de arts, afhankelijk van de pijnintensiteit.</p><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Gebruiksaanwijzing</h3><ul class='list-disc pl-10 my-3.5'><li>Tabletten in zijn geheel doorslikken met water</li><li>Niet kauwen of breken – vertraagde afgifte kan anders verstoord worden</li><li>Neem geen dubbele dosis in bij vergeten inname</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Bijwerkingen</h3><ul class='list-disc pl-10 my-3.5'><li>Vaak: misselijkheid, duizeligheid, obstipatie, slaperigheid</li><li>Zelden: ademhalingsdepressie, toevallen, verwardheid</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Voorzorgsmaatregelen</h3><ul class='list-disc pl-10 my-3.5'><li>Niet combineren met andere opioïden of antidepressiva zonder overleg</li><li>Risico op afhankelijkheid bij langdurig gebruik</li><li>Niet geschikt bij ademhalingsproblemen of leverstoornissen</li></ul>",
-    image: "/images/products/Tramadol200mg.webp",
+    shortDescription: `
+  <strong>1 Box of Tramadol 200 mg contains 30 tablets</strong>
+  <ul>
+    <li>Used for relieving severe pain</li>
+    <li>Classified as an opioid</li>
+    <li>Very strong painkiller</li>
+    <li>Extended-release tablet</li>
+    <li>Long-acting pain relief</li>
+  </ul>
+`,
+
+description: `
+  <h2 class='text-[32px] font-medium mb-3.5'>Tramadol 200 mg – Extended-Release Tablets for Pain Management</h2>
+  <p>Tramadol is an opioid analgesic used for:</p>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Long-term relief of moderate to severe pain</li>
+    <li>Treatment of chronic conditions such as osteoarthritis or nerve pain</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Mechanism of Action</h3>
+  <p>Tramadol affects the transmission of pain signals through the spinal cord and brain. It acts as a central pain reliever with delayed release for prolonged effect.</p>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Dosage</h3>
+  <p>The usual dose is 200 mg per 24 hours. The dose should be individually determined by a physician based on pain intensity.</p>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Instructions for Use</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Swallow tablets whole with water</li>
+    <li>Do not chew or break – extended-release may be compromised</li>
+    <li>Do not take a double dose if a dose is missed</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Side Effects</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Common: nausea, dizziness, constipation, drowsiness</li>
+    <li>Rare: respiratory depression, seizures, confusion</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Precautions</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Do not combine with other opioids or antidepressants without medical advice</li>
+    <li>Risk of dependence with long-term use</li>
+    <li>Not suitable for people with breathing problems or liver disorders</li>
+  </ul>
+`
+, image: "/images/products/Tramadol200mg.webp",
   },
   {
     id: 10,
@@ -278,12 +455,52 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 110,
-    shortDescription:
-      "<strong>1 Doosje Ritalin 10mg bevat 30 tabletten</strong>\n<ul>\n  <li>Verhoogd de concentie</li>\n  <li>Behandeling van ADHD</li>\n  <li>Werkt binnen 15 min en houd 4 uur aan</li>\n  <li>Voor mensen met ADHD een uitstekend middel</li>\n  <li>Voor verhoogde concentratie</li>\n</ul>",
+    shortDescription: `
+  <strong>1 Box of Ritalin 10 mg contains 30 tablets</strong>
+  <ul>
+    <li>Increases concentration</li>
+    <li>Treatment for ADHD</li>
+    <li>Works within 15 minutes and lasts 4 hours</li>
+    <li>Excellent medication for people with ADHD</li>
+    <li>For improved focus</li>
+  </ul>
+`,
 
-    description:
-      "<h2 class='text-[32px] font-medium mb-3.5'>Ritalin 10 mg – Behandeling van ADHD en Narcolepsie</h2><p>Ritalin bevat methylfenidaat, een centraal stimulerend middel dat gebruikt wordt voor:</p><ul class='list-disc pl-10 my-3.5'><li>Behandeling van Attention Deficit Hyperactivity Disorder (ADHD)</li><li>Behandeling van overmatige slaperigheid bij narcolepsie</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Werkingsmechanisme</h3><p>Methylfenidaat verhoogt de beschikbaarheid van dopamine en noradrenaline in de hersenen, wat zorgt voor verbeterde aandacht, impulscontrole en concentratie.</p><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Dosering</h3><p>Startdosering meestal 5–10 mg tweemaal daags, met mogelijke aanpassing door de arts. Inname tijdens of na de maaltijd om maagklachten te verminderen.</p><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Gebruiksaanwijzing</h3><ul class='list-disc pl-10 my-3.5'><li>Exact volgens voorschrift van arts gebruiken</li><li>Niet in de avond innemen om slaapproblemen te voorkomen</li><li>Geen abrupte stop zonder overleg</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Bijwerkingen</h3><ul class='list-disc pl-10 my-3.5'><li>Vaak: slapeloosheid, verminderde eetlust, hoofdpijn, droge mond</li><li>Soms: verhoogde hartslag of bloeddruk, stemmingswisselingen</li></ul><h3 class='text-[20px] font-medium mt-2 mb-3.5'>Waarschuwingen</h3><ul class='list-disc pl-10 my-3.5'><li>Potentieel voor misbruik bij niet-medisch gebruik</li><li>Voorzichtigheid bij hartproblemen of psychische aandoeningen</li><li>Kan rijvaardigheid en reactievermogen beïnvloeden</li></ul>",
-    image: "/images/products/Ritalin10mg.webp",
+description: `
+  <h2 class='text-[32px] font-medium mb-3.5'>Ritalin 10 mg – Treatment for ADHD and Narcolepsy</h2>
+  <p>Ritalin contains methylphenidate, a central nervous system stimulant used for:</p>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Treatment of Attention Deficit Hyperactivity Disorder (ADHD)</li>
+    <li>Treatment of excessive sleepiness in narcolepsy</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Mechanism of Action</h3>
+  <p>Methylphenidate increases the availability of dopamine and norepinephrine in the brain, improving attention, impulse control, and concentration.</p>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Dosage</h3>
+  <p>Typical starting dose is 5–10 mg twice daily, adjustable by the doctor. Take during or after meals to reduce stomach discomfort.</p>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Instructions for Use</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Use exactly as prescribed by your doctor</li>
+    <li>Do not take in the evening to avoid sleep problems</li>
+    <li>Do not stop abruptly without medical advice</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Side Effects</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Common: insomnia, decreased appetite, headache, dry mouth</li>
+    <li>Sometimes: increased heart rate or blood pressure, mood swings</li>
+  </ul>
+
+  <h3 class='text-[20px] font-medium mt-2 mb-3.5'>Warnings</h3>
+  <ul class='list-disc pl-10 my-3.5'>
+    <li>Potential for abuse if used non-medically</li>
+    <li>Use caution with heart conditions or psychiatric disorders</li>
+    <li>May affect driving ability and reaction time</li>
+  </ul>
+`
+,image: "/images/products/Ritalin10mg.webp",
   },
   {
     id: 11,
@@ -294,11 +511,58 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 120,
-    shortDescription:
-      "Buy Oxazepam, 30 tablets Oxazepam 50mg,\n\nOxazepam box medicine sleeping pills Oxazepam",
-    description:
-      '<p>Oxazepam 50mg is een geneesmiddel uit de benzodiazepineklasse, vaak voorgeschreven voor de behandeling van <strong>angststoornissen</strong>, <strong>slaapproblemen</strong> en <strong>alcoholontwenning</strong>. Het werkt door het versterken van de effecten van GABA, een neurotransmitter in de hersenen, met als resultaat een kalmerend effect.</p>\n\n<h3 class="text-[28px] font-bold mt-[14.4px]">Gebruik en Toepassingen</h3>\n<p class="my-[14px]">Oxazepam wordt medisch ingezet bij:</p>\n\n<h4 class="text-2xl font-bold mb-[14.4px]">1. Angststoornissen</h4>\n<ul class="list-disc pl-10">\n  <li>Verlaagt symptomen zoals nervositeit, spanning en paniek.</li>\n  <li>Ondersteunt herstel van een normaal dagritme.</li>\n</ul>\n\n<h4 class="text-2xl font-bold mb-[14.4px]">2. Slaapproblemen</h4>\n<ul class="list-disc pl-10">\n  <li>Bevordert inslapen bij slapeloosheid veroorzaakt door stress of angst.</li>\n</ul>\n\n<h4 class="text-2xl font-bold mb-[14.4px]">3. Alcoholontwenning</h4>\n<ul class="list-disc pl-10">\n  <li>Verlicht ontwenningsverschijnselen zoals agitatie en slapeloosheid.</li>\n</ul>\n\n<h3 class="text-[28px] font-bold mt-[14.4px]">Dosering en Toediening</h3>\n<p class="my-[14px]">De aanbevolen dosering varieert afhankelijk van de indicatie en de individuele reactie. Raadpleeg altijd een arts voor persoonlijk advies. Meestal 1–3 keer daags een tablet van 10–50mg. Inname bij voorkeur met water, niet combineren met alcohol.</p>\n\n<h3 class="text-[28px] font-bold mt-[14.4px]">Bijwerkingen en Veiligheid</h3>\n<p class="my-[14px]">Mogelijke bijwerkingen zijn onder meer:</p>\n<ul class="list-disc pl-10">\n  <li>Slaperigheid en vermoeidheid</li>\n  <li>Duizeligheid of een licht gevoel in het hoofd</li>\n  <li>Verminderde coördinatie en alertheid</li>\n  <li>In sommige gevallen: afhankelijkheid bij langdurig gebruik</li>\n</ul>\n<p>Bestuur geen voertuigen en vermijd gevaarlijke machines na inname. Gebruik uitsluitend onder toezicht van een arts.</p>\n\n<h3 class="text-[28px] font-bold mt-[14.4px]">Opslag en Bewaring</h3>\n<ul class="list-disc pl-10">\n  <li>Bewaren bij kamertemperatuur (15–25°C)</li>\n  <li>Beschermen tegen vocht en direct zonlicht</li>\n  <li>Buiten bereik van kinderen houden</li>\n</ul>\n\n<h3 class="text-[28px] font-bold my-[14.4px]">Aankoopinformatie</h3>\n<p class="my-[14px]">Oxazepam 50mg is verkrijgbaar in verpakkingen van 30 tabletten. Geschikt voor kortdurend medisch gebruik bij erkende indicaties. Verkrijgbaar via erkende online apotheken in Nederland zonder recept.</p>\n',
-    image: "/images/products/Oxazepam50mg.webp",
+   shortDescription: `
+  Buy Oxazepam, 30 tablets Oxazepam 50mg,
+  
+  Oxazepam box medicine sleeping pills Oxazepam
+`,
+
+description: `
+  <p>Oxazepam 50mg is a medication from the benzodiazepine class, commonly prescribed for the treatment of <strong>anxiety disorders</strong>, <strong>sleep problems</strong>, and <strong>alcohol withdrawal</strong>. It works by enhancing the effects of GABA, a neurotransmitter in the brain, resulting in a calming effect.</p>
+
+  <h3 class="text-[28px] font-bold mt-[14.4px]">Uses and Applications</h3>
+  <p class="my-[14px]">Oxazepam is medically used for:</p>
+
+  <h4 class="text-2xl font-bold mb-[14.4px]">1. Anxiety Disorders</h4>
+  <ul class="list-disc pl-10">
+    <li>Reduces symptoms such as nervousness, tension, and panic.</li>
+    <li>Supports restoration of a normal daily rhythm.</li>
+  </ul>
+
+  <h4 class="text-2xl font-bold mb-[14.4px]">2. Sleep Problems</h4>
+  <ul class="list-disc pl-10">
+    <li>Helps to fall asleep in cases of insomnia caused by stress or anxiety.</li>
+  </ul>
+
+  <h4 class="text-2xl font-bold mb-[14.4px]">3. Alcohol Withdrawal</h4>
+  <ul class="list-disc pl-10">
+    <li>Relieves withdrawal symptoms such as agitation and insomnia.</li>
+  </ul>
+
+  <h3 class="text-[28px] font-bold mt-[14.4px]">Dosage and Administration</h3>
+  <p class="my-[14px]">Recommended dosage varies depending on the indication and individual response. Always consult a doctor for personal advice. Usually 1–3 times daily, 10–50 mg tablets. Preferably take with water. Do not combine with alcohol.</p>
+
+  <h3 class="text-[28px] font-bold mt-[14.4px]">Side Effects and Safety</h3>
+  <p class="my-[14px]">Possible side effects include:</p>
+  <ul class="list-disc pl-10">
+    <li>Drowsiness and fatigue</li>
+    <li>Dizziness or light-headedness</li>
+    <li>Reduced coordination and alertness</li>
+    <li>In some cases: dependence with prolonged use</li>
+  </ul>
+  <p>Do not drive or operate dangerous machinery after taking. Use only under medical supervision.</p>
+
+  <h3 class="text-[28px] font-bold mt-[14.4px]">Storage</h3>
+  <ul class="list-disc pl-10">
+    <li>Store at room temperature (15–25°C)</li>
+    <li>Protect from moisture and direct sunlight</li>
+    <li>Keep out of reach of children</li>
+  </ul>
+
+  <h3 class="text-[28px] font-bold my-[14.4px]">Purchase Information</h3>
+  <p class="my-[14px]">Oxazepam 50mg is available in packages of 30 tablets. Suitable for short-term medical use under recognized indications. Available via authorized online pharmacies in the Netherlands without a prescription.</p>
+`
+, image: "/images/products/Oxazepam50mg.webp",
   },
   {
     id: 12,
@@ -309,10 +573,10 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 100,
-    shortDescription:
-      "Zopiclone kopen, 30 tabletten zopiclone 10mg, zopiclone doos medicijn slaappillen zopiclone",
-    description:
-      '<h2 class="text-[32px] font-medium my-3.5"><strong>Wat is Zopiclon?</strong></h2>\n<p>Zopiclon is een krachtig slaapmiddel dat sinds 1985 verkrijgbaar is en bekend staat om zijn effectiviteit zonder de bijwerkingen die vaak geassocieerd worden met benzodiazepinen. Dit maakt Zopiclon een uitstekende keuze voor mensen die op zoek zijn naar een snel en effectief slaapmiddel.</p>\n<h2 class="text-[32px] font-medium my-3.5"><strong>Waar wordt Zopiclon voor gebruikt?</strong></h2>\n<p>Zopiclon wordt gebruikt om de tijd die nodig is om in slaap te vallen te verkorten en de slaapduur te verlengen, waardoor het ideaal is voor zowel mensen die moeite hebben met inslapen als degenen die \'s nachts vaak wakker worden. De aanbevolen dosis is één tablet van 7,5 mg, ongeveer 30 minuten voor het slapengaan in te nemen.</p>\n<h2 class="text-[32px] font-medium my-3.5"><strong>Alternatieven voor Zopiclon</strong></h2>\n<p class="mb-3.5">Voor degenen die een alternatief voor Zopiclon zoeken, zijn er andere opties zoals Zolpidem, Melatonine en Valeriaanwortel, die elk hun eigen voordelen hebben bij het bevorderen van de slaap zonder de noodzaak van een traditionele benzodiazepine.</p>\n<ul clss="list-disc pl-10">\n<li><strong>Melatonine</strong>: Dit natuurlijke hormoon kan worden gebruikt om het slaap-waakritme te reguleren, ideaal voor mensen die last hebben van jetlag of onregelmatige slaappatronen.</li>\n<li><strong>Valeriaanwortel</strong>: Een natuurlijk kruid dat al eeuwenlang wordt gebruikt om angst te verminderen en de slaap te bevorderen.</li>\n</ul>\n<h2 class="text-[32px] font-medium my-3.5"><strong>Bijwerkingen van Zopiclon</strong></h2>\n<p>Enkele veelvoorkomende bijwerkingen van Zopiclon zijn een droge mond en een bittere of metaalachtige smaak. Het is belangrijk om de bijsluiter te lezen en een arts te raadplegen vóór gebruik.</p>\n<h3 class="text-[28px] font-medium mt-3">Vaak voorkomende bijwerkingen (treffen meer dan 30 op de 100 mensen)</h3>\n<table class="w-full border-[1px] border-stone-300 mt-3">\n<thead>\n<tr>\n<th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Bijwerking</th>\n<th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Beschrijving</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">Sufheid</td>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">–</td>\n</tr>\n<tr>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Vermoeidheid</td>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Zeer zeldzaam</td>\n</tr>\n<tr>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">Duizeligheid</td>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">–</td>\n</tr>\n<tr>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Dubbel zien</td>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">–</td>\n</tr>\n</tbody>\n</table>\n<h2 class="text-[32px] font-medium my-3.5"><strong>Zeldzame bijwerkingen (treffen 1 tot 10 op de 100 mensen)</strong></h2>\n<table class="w-full border-[1px] border-stone-300 mt-3">\n<thead>\n<tr>\n<th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Bijwerking</th>\n<th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Beschrijving</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">Bittere smaak</td>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">In de mond</td>\n</tr>\n<tr>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Droge mond</td>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">–</td>\n</tr>\n<tr>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Gewenning</td>\n<td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">–</td>\n</tr>\n</tbody>\n</table>\n<h2 class="text-[32px] font-medium my-3.5"><strong>Zeer zeldzame bijwerkingen (treffen minder dan 1 op de 100 mensen)</strong></h2>\n<p class="mt-3">Voor meer informatie of als u ernstige bijwerkingen ervaart, is het belangrijk om contact op te nemen met uw apotheker of arts.</p>\n<h2 class="text-[32px] font-medium my-3.5"><strong>Belangrijke informatie voor gebruik</strong></h2>\n<p>Neem Zopiclon alleen in zoals voorgeschreven door een arts. Het is belangrijk dat u klaar bent om naar bed te gaan nadat u de tablet heeft ingenomen, zonder dat u nog andere belangrijke taken hoeft uit te voeren.</p>\n<p class="mt-3">Zopiclon blijft een populair en betrouwbaar middel voor veel mensen die aan slapeloosheid lijden, met een bewezen staat van dienst op het gebied van effectiviteit en een beter bijwerkingenprofiel in vergelijking met traditionele slaappillen, waardoor het een uitstekende keuze is voor degenen die op zoek zijn naar een goede nachtrust.</p>',
+   shortDescription:
+"Buy Zopiclone, 30 tablets Zopiclone 10mg, Zopiclone medicine box sleeping pills Zopiclone",
+   description:
+      `<h2 class="text-[32px] font-medium my-3.5"><strong>What is Zopiclone?</strong></h2> <p>Zopiclone is a powerful sleeping pill available since 1985, known for its effectiveness without the common side effects associated with benzodiazepines. This makes Zopiclone a great choice for those seeking a fast and effective sleep aid.</p> <h2 class="text-[32px] font-medium my-3.5"><strong>What is Zopiclone used for?</strong></h2> <p>Zopiclone is used to shorten the time it takes to fall asleep and to increase sleep duration, making it ideal for people who have trouble falling asleep or who wake frequently during the night. The recommended dose is one 7.5 mg tablet about 30 minutes before bedtime.</p> <h2 class="text-[32px] font-medium my-3.5"><strong>Alternatives to Zopiclone</strong></h2> <p class="mb-3.5">For those seeking alternatives, options include Zolpidem, Melatonin, and Valerian root, each offering benefits for promoting sleep without the need for traditional benzodiazepines.</p> <ul class="list-disc pl-10"> <li><strong>Melatonin:</strong> A natural hormone used to regulate the sleep-wake cycle, ideal for jet lag or irregular sleep patterns.</li> <li><strong>Valerian root:</strong> A natural herb used for centuries to reduce anxiety and promote sleep.</li> </ul> <h2 class="text-[32px] font-medium my-3.5"><strong>Side Effects of Zopiclone</strong></h2> <p>Common side effects include dry mouth and a bitter or metallic taste. Always read the leaflet and consult a doctor before use.</p> <h3 class="text-[28px] font-medium mt-3">Common side effects (affecting more than 30 out of 100 people)</h3> <table class="w-full border-[1px] border-stone-300 mt-3"> <thead> <tr> <th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Side Effect</th> <th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Description</th> </tr> </thead> <tbody> <tr> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">Drowsiness</td> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">–</td> </tr> <tr> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Fatigue</td> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Very rare</td> </tr> <tr> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">Dizziness</td> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">–</td> </tr> <tr> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Double vision</td> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">–</td> </tr> </tbody> </table> <h2 class="text-[32px] font-medium my-3.5"><strong>Rare side effects (affecting 1 to 10 out of 100 people)</strong></h2> <table class="w-full border-[1px] border-stone-300 mt-3"> <thead> <tr> <th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Side Effect</th> <th class="py-3 border-r-[1px] border-b-[1px] border-stone-300">Description</th> </tr> </thead> <tbody> <tr> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">Bitter taste</td> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 bg-[#F2F2F2] pl-4">In the mouth</td> </tr> <tr> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Dry mouth</td> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">–</td> </tr> <tr> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">Dependence</td> <td class="py-3 border-r-[1px] border-b-[1px] border-stone-300 pl-4">–</td> </tr> </tbody> </table> <h2 class="text-[32px] font-medium my-3.5"><strong>Very rare side effects (affecting fewer than 1 out of 100 people)</strong></h2> <p class="mt-3">For more information or if you experience serious side effects, contact your pharmacist or doctor.</p> <h2 class="text-[32px] font-medium my-3.5"><strong>Important usage information</strong></h2> <p>Take Zopiclone only as prescribed by your doctor. Make sure you are ready to go to bed immediately after taking the tablet, without needing to do other important tasks.</p> <p class="mt-3">Zopiclone remains a popular and reliable choice for many people suffering from insomnia, with a proven record of effectiveness and a better side effect profile compared to traditional sleeping pills, making it an excellent option for a good night’s rest.</p>`,
     image: "/images/products/Zopiclon7,5mg2.webp",
   },
   {
@@ -324,11 +588,47 @@ export const products = [
     category: "Medicijnen",
     categories: ["Medicijnen"],
     stock: 75,
-    shortDescription:
-      "Dormicum 15 mg tabletten zijn een farmaceutische formulering die midazolam bevat, een benzodiazepine-derivaat dat bekend staat om zijn sedatieve en anxiolytische eigenschappen.",
-    description:
-      '<p>Dormicum 15 mg tabletten zijn een farmaceutische formulering die midazolam bevat, een benzodiazepine-derivaat dat bekend staat om zijn sedatieve en anxiolytische eigenschappen. Deze tabletten worden voorgeschreven voor de kortdurende behandeling van slapeloosheid en kunnen ook worden gebruikt als premedicatie vóór chirurgische of diagnostische procedures.</p>\n<p class="mt-3.5"><strong>Belangrijkste kenmerken</strong></p>\n<ul class="list-disc pl-10">\n<li class="mt-3.5">Farmaceutische tabletten met 15 mg midazolam.</li>\n<li>Ontwikkeld voor kortdurende behandeling van slapeloosheid.</li>\n<li>Geschikt als premedicatie bij chirurgische of diagnostische procedures.</li>\n</ul>\n<p class="mt-3.5"><strong>Productdetails</strong></p>\n<ul class="list-disc pl-10">\n<li class="mt-3.5">Belangrijkste werkzame stof: Midazolam</li>\n<li>Toediening: Orale inname met water.</li>\n<li>Dosering: Afhankelijk van individuele patiëntfactoren en beoogd gebruik.</li>\n</ul>\n<p class="mb-3.5"><strong>Hoe werkt het?</strong></p>\n<p>Dormicum, met de werkzame stof midazolam, werkt op het centrale zenuwstelsel door de effecten van gamma-aminoboterzuur (GABA), een remmende neurotransmitter, te versterken. Dit leidt tot sedatieve en anxiolytische effecten, die ontspanning en slaap bevorderen.</p>\n<p class="my-3.5"><strong>Voordelen</strong></p>\n<ul class="list-disc pl-10">\n<li>✔ Behandeling van slapeloosheid - Effectief voor kortdurende verlichting van slapeloosheid.</li>\n<li>✔ Sedatieve eigenschappen - Bevordert ontspanning en slaap.</li>\n<li>✔ Premedicatie - Geschikt voor gebruik voorafgaand aan chirurgische of diagnostische procedures.</li>\n</ul>\n<p class="my-3.5"><strong>Voorzorgsmaatregelen</strong></p>\n<ul class="list-disc pl-10">\n<li>⚠ Gebruik onder begeleiding van een arts.</li>\n<li>⚠ Voorzichtigheid is geboden bij ouderen en patiënten met ademhalingsproblemen.</li>\n<li>⚠ Vermijd alcohol en andere dempers van het centrale zenuwstelsel tijdens de behandeling.</li>\n</ul>\n<p><strong>Verpakkingsinformatie</strong></p>\n<p class="my-3.5">Tabletten zijn verkrijgbaar in blisterverpakkingen. Elke tablet bevat 15 mg midazolam.</p>\n<p><strong>Waarom kiezen voor Dormicum 15 mg tabletten?</strong></p>\n<ul class="list-disc pl-10">\n<li>✅ Effectieve verlichting van slapeloosheid - Bewezen werkzaamheid bij kortdurende behandeling.</li>\n<li>✅ Gemakkelijke orale toediening - Eenvoudig in te slikken met water.</li>\n<li>✅ Veelzijdig gebruik - Geschikt voor zowel slapeloosheid als premedicatie.</li>\n</ul>\n<p class="mb-3.5"><strong>Conclusie</strong></p>\n<p>Dormicum 15 mg tabletten bieden een betrouwbare oplossing voor mensen die kortdurende verlichting van slapeloosheid zoeken of premedicatie nodig hebben voorafgaand aan chirurgische of diagnostische procedures. Dankzij de vertrouwde sedatieve eigenschappen van midazolam helpen deze tabletten ontspanning en slaap te bevorderen.</p>',
-    image: "/images/products/Midazolam15mg.webp",
+   shortDescription:
+  "Dormicum 15 mg tablets are a pharmaceutical formulation containing midazolam, a benzodiazepine derivative known for its sedative and anxiolytic properties.",
+description:
+  `<p>Dormicum 15 mg tablets are a pharmaceutical formulation containing midazolam, a benzodiazepine derivative known for its sedative and anxiolytic properties. These tablets are prescribed for the short-term treatment of insomnia and can also be used as premedication before surgical or diagnostic procedures.</p>
+  <p class="mt-3.5"><strong>Main Features</strong></p>
+  <ul class="list-disc pl-10">
+    <li class="mt-3.5">Pharmaceutical tablets containing 15 mg midazolam.</li>
+    <li>Developed for short-term treatment of insomnia.</li>
+    <li>Suitable as premedication for surgical or diagnostic procedures.</li>
+  </ul>
+  <p class="mt-3.5"><strong>Product Details</strong></p>
+  <ul class="list-disc pl-10">
+    <li class="mt-3.5">Active ingredient: Midazolam</li>
+    <li>Administration: Oral intake with water.</li>
+    <li>Dosage: Depends on individual patient factors and intended use.</li>
+  </ul>
+  <p class="mb-3.5"><strong>How does it work?</strong></p>
+  <p>Dormicum, with the active ingredient midazolam, works on the central nervous system by enhancing the effects of gamma-aminobutyric acid (GABA), an inhibitory neurotransmitter. This leads to sedative and anxiolytic effects that promote relaxation and sleep.</p>
+  <p class="my-3.5"><strong>Benefits</strong></p>
+  <ul class="list-disc pl-10">
+    <li>✔ Treatment of insomnia - Effective for short-term relief of insomnia.</li>
+    <li>✔ Sedative properties - Promotes relaxation and sleep.</li>
+    <li>✔ Premedication - Suitable for use prior to surgical or diagnostic procedures.</li>
+  </ul>
+  <p class="my-3.5"><strong>Precautions</strong></p>
+  <ul class="list-disc pl-10">
+    <li>⚠ Use under medical supervision.</li>
+    <li>⚠ Caution advised for elderly patients and those with respiratory problems.</li>
+    <li>⚠ Avoid alcohol and other central nervous system depressants during treatment.</li>
+  </ul>
+  <p><strong>Packaging Information</strong></p>
+  <p class="my-3.5">Tablets are available in blister packs. Each tablet contains 15 mg of midazolam.</p>
+  <p><strong>Why choose Dormicum 15 mg tablets?</strong></p>
+  <ul class="list-disc pl-10">
+    <li>✅ Effective relief of insomnia - Proven efficacy for short-term treatment.</li>
+    <li>✅ Easy oral administration - Easy to swallow with water.</li>
+    <li>✅ Versatile use - Suitable for both insomnia and premedication.</li>
+  </ul>
+  <p class="mb-3.5"><strong>Conclusion</strong></p>
+  <p>Dormicum 15 mg tablets provide a reliable solution for people seeking short-term relief from insomnia or premedication before surgical or diagnostic procedures. Thanks to the trusted sedative properties of midazolam, these tablets help promote relaxation and sleep.</p>`
+, image: "/images/products/Midazolam15mg.webp",
   },
   {
     id: 14,
@@ -340,12 +640,49 @@ export const products = [
     categories: ["Medicijnen"],
     stock: 120,
     shortDescription:
-      "OXAZEPAM wordt gebruikt voor de behandeling van angst.\n\nHet kan ook worden gebruikt om de symptomen van alcoholontwenning te verminderen",
-    description:
-      '<h3 class="text-[28px] font-bold mb-3.5">Over Dit Medicijn</h3>\n<p>OXAZEPAM 10mg (ox A ze pam) wordt gebruikt voor de behandeling van angst. Het kan ook worden gebruikt om de symptomen van alcoholontwenning te verminderen. Het werkt door het zenuwstelsel te kalmeren. Dit medicijn behoort tot een groep geneesmiddelen die benzodiazepinen worden genoemd.</p>\n<p class="mt-3.5">Oxazepam behoort tot de klasse van benzodiazepinen die bekend staan als \'anxiolytica\' of \'anti-angstmiddelen\' en wordt gebruikt voor kortdurende (2-4 weken) behandeling van angst of paniekstoornissen. Angst of paniekstoornissen zijn psychische aandoeningen die worden gekenmerkt door overmatige angst, bezorgdheid en nervositeit, wat het dagelijks functioneren kan beïnvloeden. Symptomen van angst omvatten een verhoogde stressreactie op situaties en het onvermogen om rusteloosheid en zorgen los te laten.</p>\n<h3 class="text-[28px] font-bold my-3.5">Hoe Moet U Dit Medicijn Gebruiken?</h3>\n<p>Neem dit medicijn oraal in met een glas water. Volg de instructies op het voorschriftlabel. Neem uw medicatie op regelmatige tijdstippen en niet vaker dan voorgeschreven. Stop niet met het innemen zonder overleg met uw arts.</p>\n<p class="mt-3.5">Bij elke verstrekking en navulling zal de apotheker u een speciale medicatiegids (MedGuide) geven. Lees deze informatie telkens zorgvuldig door. Bespreek het gebruik van dit medicijn bij kinderen met uw arts. Dit medicijn kan worden voorgeschreven aan kinderen vanaf 6 jaar voor bepaalde aandoeningen, maar voorzichtigheid is geboden.</p>\n<h3 class="text-[28px] font-bold my-3.5">Medische Voordelen</h3>\n<p class="mt-3.5">Oxazepam bevat oxazepam, een anti-angstmedicijn dat wordt gebruikt voor de kortdurende (2 tot 4 weken) behandeling van angststoornissen. Oxazepam verhoogt de activiteit van GABA (een neurotransmitter in de hersenen die een kalmerend effect heeft), wat leidt tot ontspanning, spierontspanning en slaperigheid. Daarnaast wordt oxazepam gebruikt om angst te verlichten die gepaard gaat met alcoholontwenning.</p>\n<h3 class="text-[28px] font-bold my-3.5">Wat Kan Interageren met Dit Medicijn?</h3>\n<p class="my-3.5">Onze apothekers controleren of dit medicijn interacties kan veroorzaken met de gegevens in uw profiel.\nNeem dit medicijn <strong>niet</strong> samen met de volgende middelen:</p>\n<ul class="list-disc pl-10">\n<li>Opioïden tegen hoest</li>\n<li>Natriumoxybaat</li>\n</ul>\n<p class="mb-3.5">Dit medicijn kan ook interageren met de volgende middelen:</p>\n<ul class="list-disc pl-10">\n<li>Alcohol</li>\n<li>Antihistaminica tegen allergieën, hoest en verkoudheid</li>\n<li>Bepaalde medicijnen tegen angst of slaapstoornissen</li>\n<li>Bepaalde antidepressiva, zoals amitriptyline, fluoxetine, sertraline</li>\n<li>Bepaalde medicijnen tegen epilepsie, zoals fenobarbital, primidon</li>\n<li>Algemene anesthetica, zoals lidocaïne, pramoxine, tetracaïne</li>\n<li>Spierverslappers die worden gebruikt bij operaties</li>\n<li>Opioïden tegen pijn</li>\n<li>Fenothiazinen, zoals chloorpromazine, mesoridazine, prochlorperazine, thioridazine</li>\n</ul>\n<h3 class="text-[28px] font-bold my-3.5">Gebruiksaanwijzing</h3>\n<p>Neem oxazepam in met of zonder voedsel zoals voorgeschreven door uw arts. Slik de tablet in zijn geheel door met een glas water. Niet breken, pletten of kauwen.</p>\n<h3 class="text-[28px] font-bold my-3.5">Bewaring</h3>\n<p>Bewaar op een koele en droge plaats, uit de buurt van direct zonlicht.</p>',
-    image: "/images/products/Oxazepam10mg.webp",
+  "OXAZEPAM is used for the treatment of anxiety.\n\nIt can also be used to reduce symptoms of alcohol withdrawal.",
+
+description:
+  `<h3 class="text-[28px] font-bold mb-3.5">About This Medicine</h3>
+  <p>OXAZEPAM 10mg (ox-A-ze-pam) is used for the treatment of anxiety. It can also be used to reduce symptoms of alcohol withdrawal. It works by calming the nervous system. This medicine belongs to a group of drugs called benzodiazepines.</p>
+  <p class="mt-3.5">Oxazepam belongs to the class of benzodiazepines known as 'anxiolytics' or 'anti-anxiety agents' and is used for short-term (2-4 weeks) treatment of anxiety or panic disorders. Anxiety or panic disorders are mental health conditions characterized by excessive fear, worry, and nervousness, which can affect daily functioning. Symptoms of anxiety include an increased stress response to situations and an inability to let go of restlessness and worries.</p>
+  
+  <h3 class="text-[28px] font-bold my-3.5">How Should You Use This Medicine?</h3>
+  <p>Take this medicine orally with a glass of water. Follow the instructions on the prescription label. Take your medication at regular times and not more often than prescribed. Do not stop taking it without consulting your doctor.</p>
+  <p class="mt-3.5">At each dispensing and refill, the pharmacist will provide you with a special medication guide (MedGuide). Read this information carefully each time. Discuss the use of this medicine in children with your doctor. This medicine can be prescribed to children from 6 years old for certain conditions but should be used with caution.</p>
+  
+  <h3 class="text-[28px] font-bold my-3.5">Medical Benefits</h3>
+  <p class="mt-3.5">Oxazepam contains oxazepam, an anti-anxiety medicine used for short-term (2 to 4 weeks) treatment of anxiety disorders. Oxazepam increases the activity of GABA (a neurotransmitter in the brain that has a calming effect), leading to relaxation, muscle relaxation, and drowsiness. Additionally, oxazepam is used to relieve anxiety associated with alcohol withdrawal.</p>
+  
+  <h3 class="text-[28px] font-bold my-3.5">What Can Interact With This Medicine?</h3>
+  <p class="my-3.5">Our pharmacists check whether this medicine can cause interactions with the data in your profile. Do <strong>not</strong> take this medicine together with the following drugs:</p>
+  <ul class="list-disc pl-10">
+    <li>Cough opioids</li>
+    <li>Sodium oxybate</li>
+  </ul>
+  <p class="mb-3.5">This medicine can also interact with the following medications:</p>
+  <ul class="list-disc pl-10">
+    <li>Alcohol</li>
+    <li>Antihistamines for allergies, cough, and cold</li>
+    <li>Certain medications for anxiety or sleep disorders</li>
+    <li>Certain antidepressants such as amitriptyline, fluoxetine, sertraline</li>
+    <li>Certain epilepsy medications such as phenobarbital, primidone</li>
+    <li>General anesthetics such as lidocaine, pramoxine, tetracaine</li>
+    <li>Muscle relaxants used during surgeries</li>
+    <li>Pain opioids</li>
+    <li>Phenothiazines such as chlorpromazine, mesoridazine, prochlorperazine, thioridazine</li>
+  </ul>
+  
+  <h3 class="text-[28px] font-bold my-3.5">Instructions for Use</h3>
+  <p>Take oxazepam with or without food as prescribed by your doctor. Swallow the tablet whole with a glass of water. Do not break, crush, or chew.</p>
+  
+  <h3 class="text-[28px] font-bold my-3.5">Storage</h3>
+  <p>Store in a cool, dry place away from direct sunlight.</p>`
+, image: "/images/products/Oxazepam10mg.webp",
   },
 
+
+  // update there 
   {
     id: 15,
     name: "Quetiapine 100mg tabletten",
