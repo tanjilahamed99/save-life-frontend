@@ -68,10 +68,10 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="relative h-10 w-44">
+            <div className="relative h-9 w-40">
               <Image
-                src="/images/benzobestellen-logo.svg"
-                alt="Benzobestellen Logo"
+                src="/images/savelife-1.png"
+                alt="save life Logo"
                 fill
                 className="object-contain"
                 priority

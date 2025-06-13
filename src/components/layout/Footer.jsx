@@ -17,11 +17,11 @@ export default function Footer() {
           <div className="col-span- md:col-span-1">
             <Link href={"/"}>
               <Image
-                src="/images/benzobestellen-logo-1.svg"
+                src="/images/savelife-2.png"
                 alt="Benzobestellen"
                 width={140}
                 height={40}
-                className="h-10 sm:w-[180px] w-auto"
+                className="h-9 sm:w-[160px] w-auto"
               />
             </Link>
           </div>
