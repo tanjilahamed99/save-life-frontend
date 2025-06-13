@@ -34,7 +34,7 @@ export default function Footer() {
                   href="/shop"
                   className="text-gray-400 hover:text-teal-400"
                 >
-                  ▸ Medicijnen
+                  ▸ Medicines
                 </Link>
               </li>
               <li>
@@ -42,7 +42,7 @@ export default function Footer() {
                   href="/shop"
                   className="text-gray-400 hover:text-teal-400"
                 >
-                  ▸ Erectie pillen
+                  ▸  Erection pills
                 </Link>
               </li>
 
@@ -51,7 +51,7 @@ export default function Footer() {
                   href="/over-ons"
                   className="text-gray-400 hover:text-teal-400"
                 >
-                  ▸ Over ons
+                  ▸ About us
                 </Link>
               </li>
               <li>
@@ -67,7 +67,7 @@ export default function Footer() {
                   href="/dashboard"
                   className="text-gray-400 hover:text-teal-400"
                 >
-                  ▸ Mijn account
+                  ▸ my account
                 </Link>
               </li>
               <li>
@@ -75,7 +75,7 @@ export default function Footer() {
                   href="/register"
                   className="text-gray-400 hover:text-teal-400"
                 >
-                  ▸ Aanmelden
+                  ▸ sign up
                 </Link>
               </li>
             </ul>
@@ -150,7 +150,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              © BenzoBestellen {new Date().getFullYear()}. All rights reserved.
+              © SaveLife {new Date().getFullYear()} . All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <img src="/payment-ideal.png" alt="iDEAL" className="size-8" />
